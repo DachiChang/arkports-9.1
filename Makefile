@@ -1,6 +1,6 @@
 #
 #
-    COMMENT = Custom Ports of ArkBSD
+    COMMENT = Custom Ports of Awesome Rapid Kit
 
     SUBDIR += im-engine
 
