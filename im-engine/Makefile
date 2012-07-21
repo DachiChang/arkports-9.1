@@ -7,7 +7,7 @@
 
 PORTNAME=	im-engine
 PORTVERSION=	1.01
-CATEGORIES=	ark
+CATEGORIES=	arkports
 MASTER_SITES=	# none
 DISTFILES=	# none
 
