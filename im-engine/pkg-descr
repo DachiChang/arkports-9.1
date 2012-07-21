@@ -1,0 +1,6 @@
+ibus meta ports, it's include ports below
+
+    textproc/ibus
+    textproc/ibus-table with boshiamy input method
+    chinese/ibus-chewing
+
