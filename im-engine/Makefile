@@ -20,6 +20,8 @@ RUN_DEPENDS=	${LOCALBASE}/libexec/ibus-engine-table:${PORTSDIR}/textproc/ibus-ta
 NO_BUILD=	yes
 
 do-install:
+	${MKDIR} ${PREFIX}/share/ibus-table/tables
+	${MKDIR} ${PREFIX}/share/ibus-table/icons
 	${INSTALL_DATA} ${FILESDIR}/boshiamy/liu.db ${PREFIX}/share/ibus-table/tables/
 	${INSTALL_DATA} ${FILESDIR}/boshiamy/liu.png ${PREFIX}/share/ibus-table/icons/
 
