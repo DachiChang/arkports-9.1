@@ -1,3 +1,4 @@
+@comment $FreeBSD$
 share/ibus-table/icons/liu.png
 share/ibus-table/tables/liu.db
 @dirrmtry share/ibus-table/tables
