@@ -1,0 +1,11 @@
+@comment $FreeBSD$
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/make.conf
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/rc.conf
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/fstab
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /boot/loader.conf
+share/skel/dot.cshrc
+share/skel/dot.login_conf
+@dirrmtry share/skel
+@cwd /
+etc/adduser.conf
+etc/ppp/ppp.conf.sample

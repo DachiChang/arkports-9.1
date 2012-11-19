@@ -1,0 +1,8 @@
+@comment $FreeBSD$
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/rc.conf
+@unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /boot/loader.conf
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
+@cwd /
+%%OPT_PORT_PATH%%/options
+@dirrmtry %%OPT_PORT_PATH%%

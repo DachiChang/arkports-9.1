@@ -1,0 +1,44 @@
+#!/bin/sh
+
+if [ "$2" != 'DO-INSTALL' ]; then
+    exit
+fi
+
+# command
+CAT="cat"
+ECHO="echo"
+PRINTF="printf"
+MOUNT="mount -a"
+MKDIR="mkdir -p"
+
+# setting file
+MAKE_SETTING="files/make_setting"
+LOADER_SETTING="files/loader_setting"
+RC_SETTING="files/rc_setting"
+
+# append header and footer
+CONF_HEADER="# Begin of $1 settings"
+CONF_FOOTER="# End of $1 settings"
+
+# install command
+${ECHO} ${CONF_HEADER} >> /etc/rc.conf
+${CAT} ${RC_SETTING} >> /etc/rc.conf
+${ECHO} ${CONF_FOOTER} >> /etc/rc.conf
+
+${ECHO} ${CONF_HEADER} >> /etc/make.conf
+${CAT} ${MAKE_SETTING} >> /etc/make.conf
+${ECHO} ${CONF_FOOTER} >> /etc/make.conf
+
+${ECHO} ${CONF_HEADER} >> /boot/loader.conf
+${CAT} ${LOADER_SETTING} >> /boot/loader.conf
+${ECHO} ${CONF_FOOTER} >> /boot/loader.conf
+
+# mount proc, linproc file system
+${ECHO} ${CONF_HEADER} >> /etc/fstab
+${PRINTF} 'proc\t\t\t/proc\t\t\tprocfs\t\trw\t\t0\t0\n' >> /etc/fstab 
+if [ ! -d /compat/linux/proc ]; then
+    ${MKDIR} /compat/linux/proc
+fi
+${PRINTF} 'linproc\t\t\t/compat/linux/proc\tlinprocfs\trw\t\t0\t0\n' >> /etc/fstab
+${ECHO} ${CONF_FOOTER} >> /etc/fstab
+${MOUNT}

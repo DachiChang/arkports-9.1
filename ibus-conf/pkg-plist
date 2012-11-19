@@ -1,0 +1,4 @@
+@comment $FreeBSD$
+@cwd /
+%%OPT_PORT_PATH%%/options
+@dirrmtry %%OPT_PORT_PATH%%

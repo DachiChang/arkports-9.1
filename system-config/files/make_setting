@@ -1,0 +1,8 @@
+MASTER_SITE_BACKUP?= \
+                ftp://ftp3.tw.freebsd.org/pub/FreeBSD/distfiles/${DIST_SUBDIR}/\
+                ftp://ftp2.tw.freebsd.org/pub/FreeBSD/distfiles/${DIST_SUBDIR}/\
+                ftp://ftp6.tw.freebsd.org/pub/FreeBSD/distfiles/${DIST_SUBDIR}/
+MASTER_SITE_OVERRIDE?=  ${MASTER_SITE_BACKUP}
+BATCH=yes
+WITH_NLS=yes
+WITHOUT_DEBUG=yes

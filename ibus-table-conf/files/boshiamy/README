@@ -1,0 +1,2 @@
+if you want to rebuild boshiamy table for ibus, follow the command below.
+# ibus-table-createdb -s liu.txt -n liu.db

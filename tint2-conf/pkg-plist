@@ -1,0 +1,7 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/panel.rc
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
+@cwd /
+%%OPT_PORT_PATH%%/options
+@dirrmtry %%OPT_PORT_PATH%%

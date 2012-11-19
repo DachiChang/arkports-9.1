@@ -1,0 +1,6 @@
+gtk-double-click-distance = 10
+gtk-double-click-time = 500
+gtk-error-bell = 0
+gtk-icon-theme-name = "Faenza-Darkest"
+gtk-theme-name = "BloodyNight"
+#gtk-font-name= "sans-serif 12"

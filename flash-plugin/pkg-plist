@@ -1,0 +1,3 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%

@@ -1,0 +1,15 @@
+/**
+ * Default colors for HTML-Forms when using dark GTK Themes.
+ * 
+ * @author Julius Beckmann kontakt@juliusbeckmann.de
+ */
+
+button,
+input,
+select,
+textarea {
+    -moz-appearance: none !important;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}

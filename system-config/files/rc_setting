@@ -1,0 +1,21 @@
+# == system optimize setting ==
+clear_tmp_enable="YES"
+fsck_y_enable="YES"
+background_fsck="NO"
+
+# == static ip setting ==
+#ifconfig_alc0="inet 140.138.152.119 netmask 255.255.255.0"
+#defaultrouter="140.138.152.254"
+
+# == dynamic ip setting ==
+#ifconfig_alc0="SYNCDHCP"
+
+# == wireless setting ==
+#wlans_ath0="wlan0"
+#ifconfig_wlan0="WPA SYNCDHCP"
+
+# == point-to-point over ethernet setting ==
+#ppp_enable="YES"
+#ppp_mode="ddial"
+#ppp_profile="hinet"
+#ppp_nat="NO"

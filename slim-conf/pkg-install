@@ -1,0 +1,20 @@
+#!/bin/sh
+
+if [ "$2" != 'DO-INSTALL' ]; then
+    exit
+fi
+
+# command
+ECHO="echo"
+PRINTF="printf"
+SED="sed"
+
+# append header and footer
+CONF_HEADER="# Begin of $1 settings"
+CONF_FOOTER="# End of $1 settings"
+
+# install command
+${SED} -e '/^ttyv8/s/^/#/' -i '' /etc/ttys
+${ECHO} ${CONF_HEADER} >> /etc/ttys
+${PRINTF} 'ttyv8\t\"/usr/local/bin/slim\"\t\txterm\ton  secure\n' >> /etc/ttys
+${ECHO} ${CONF_FOOTER} >> /etc/ttys

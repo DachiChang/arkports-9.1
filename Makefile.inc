@@ -1,0 +1,3 @@
+#
+PKGNAMEPREFIX?= ark-
+VALID_CATEGORIES+= arkports

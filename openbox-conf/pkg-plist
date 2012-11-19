@@ -1,0 +1,5 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/rc.xml
+%%EXAMPLESDIR%%/menu.xml
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%

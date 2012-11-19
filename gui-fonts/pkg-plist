@@ -1,0 +1,4 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/fonts.conf
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
