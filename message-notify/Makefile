@@ -14,9 +14,9 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	On screen message notify
 
-RUN_DEPENDS=	ark-xfce4-notifyd-conf>=0:${PORTSDIR}/arkports/xfce4-notifyd-conf \
-		xfce4-notifyd>=0:${PORTSDIR}/deskutils/xfce4-notifyd \
-		ark-gui-themes>=0:${PORTSDIR}/arkports/gui-themes
+RUN_DEPENDS=	ark-gui-themes>=0:${PORTSDIR}/arkports/gui-themes \
+		ark-xfce4-notifyd-conf>=0:${PORTSDIR}/arkports/xfce4-notifyd-conf \
+		xfce4-notifyd>=0:${PORTSDIR}/deskutils/xfce4-notifyd
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes

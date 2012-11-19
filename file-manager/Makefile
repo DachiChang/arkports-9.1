@@ -15,8 +15,8 @@ MAINTAINER=	femc7488@gmail.com
 COMMENT=	File manager
 
 RUN_DEPENDS=	ark-libfm-conf>=0:${PORTSDIR}/arkports/libfm-conf \
-		libfm>=0:${PORTSDIR}/x11/libfm \
 		ark-pcmanfm-conf>=0:${PORTSDIR}/arkports/pcmanfm-conf \
+		libfm>=0:${PORTSDIR}/x11/libfm \
 		pcmanfm>=0:${PORTSDIR}/x11-fm/pcmanfm
 
 USE_GNOME=	gnomemenus

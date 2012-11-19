@@ -16,8 +16,8 @@ COMMENT=	Window manager
 
 RUN_DEPENDS=	ark-gui-themes>=0:${PORTSDIR}/arkports/gui-themes \
 		ark-gui-fonts>=0:${PORTSDIR}/arkports/gui-fonts \
-		ark-openbox-menu>=0:${PORTSDIR}/arkports/openbox-menu \
 		ark-openbox-conf>=0:${PORTSDIR}/arkports/openbox-conf \
+		ark-openbox-menu>=0:${PORTSDIR}/arkports/openbox-menu \
 		openbox>=0:${PORTSDIR}/x11-wm/openbox
 
 NO_WRKSUBDIR=	yes
