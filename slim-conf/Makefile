@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	slim-conf
-PORTVERSION=	1.3.2
+PORTVERSION=	1.3.4
 CATEGORIES=	arkports
 MASTER_SITES=	# none
 DISTFILES=	# none
