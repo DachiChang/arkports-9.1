@@ -26,5 +26,8 @@ PLIST_SUB+=	PATCH_PORT_PATH="${PORTSDIR}/${PATCH_PORT}"
 do-install:
 	${MKDIR} ${PORTSDIR}/${PATCH_PORT}/files
 	${INSTALL} -m 644 ${FILESDIR}/xterm.xpm ${PORTSDIR}/${PATCH_PORT}/files/patch-xterm.xpm
+	${MKDIR} ${EXAMPLESDIR}
+	${INSTALL_DATA} ${FILESDIR}/Xdefaults ${EXAMPLESDIR}
+	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 
 .include <bsd.port.mk>

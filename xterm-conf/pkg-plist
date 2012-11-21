@@ -1,4 +1,6 @@
 @comment $FreeBSD$
+%%EXAMPLESDIR%%/Xdefaults
+%%EXAMPLESDIR%%/install.sh
 @cwd /
 %%PATCH_PORT_PATH%%/files/patch-xterm.xpm
 @dirrmtry %%PATCH_PORT_PATH%%/files
