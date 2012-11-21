@@ -14,6 +14,8 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Xterm configure files
 
+RUN_DEPENDS=	ark-gui-fonts>=0:${PORTSDIR}/arkports/gui-fonts
+
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
