@@ -442,7 +442,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Tab">
+        <keybind key="W-grave">
             <action name="PreviousWindow">
                 <raise>yes</raise>
                 <finalactions>
