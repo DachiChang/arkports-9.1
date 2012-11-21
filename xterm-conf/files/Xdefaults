@@ -1,0 +1,47 @@
+! Terminal generic
+*background:    #202020
+*foreground:    #eeeeee
+! Black
+*color0:        #465457
+*color8:        #465457
+! Red
+*color1:        #f92672
+*color9:        #f92672
+! Green
+*color2:        #a6e22e
+*color10:       #a6e22e
+! Yellow
+*color3:        #e6db74
+*color11:       #e6db74
+! Blue
+*color4:        #66d9ef
+*color12:       #66d9ef
+! Mangenta
+*color5:        #fd971f
+*color13:       #fd971f
+! Cyan 
+*color6:        #ae81ff
+*color14:       #ae81ff
+! White
+*color7:        #eeeeee
+*color15:       #eeeeee
+
+! XTerm configure
+XTerm*VT100.translations: #override \
+    <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0) \n\
+    Ctrl <Key>=: larger-vt-font() \n\
+    Ctrl <Key>-: smaller-vt-font()
+XTerm*utf8Title: true
+XTerm*multiClickTime: 500
+XTerm*faceName: Droid Sans Mono
+XTerm*faceNameDoublesize: Droid Sans Fallback
+XTerm*faceSize: 10
+XTerm*allowBoldFonts: false
+XTerm*title: Terminal
+XTerm*internalBorder: 10
+XTerm*geometry: 80x20
+XTerm*saveLines: 1000
+XTerm*visualBell: true
+XTerm*colorULMode: true
+XTerm*colorUL: #cc0000
+XTerm*pointerMode: 0
