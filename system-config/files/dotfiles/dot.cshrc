@@ -33,9 +33,12 @@ setenv PAGER    more
 setenv BLOCKSIZE	K
 
 # bindkey setting
-bindkey "^W" backward-delete-word
-bindkey -k up history-search-backward
-bindkey -k down history-search-forward
+bindkey '\e[1~' beginning-of-line      # Home
+bindkey '\e[3~' delete-char            # Delete
+bindkey '\e[4~' end-of-line            # End
+bindkey '^W' backward-delete-word      # Delete
+bindkey -k up history-search-backward  # PageUp
+bindkey -k down history-search-forward # PageDown
 
 # xterm title setting
 if ( $TERM == 'xterm' ) then
