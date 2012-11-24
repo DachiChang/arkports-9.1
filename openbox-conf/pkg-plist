@@ -1,5 +1,8 @@
 @comment $FreeBSD$
 %%EXAMPLESDIR%%/rc.xml
 %%EXAMPLESDIR%%/menu.xml
+%%EXAMPLESDIR%%/autostart
+%%EXAMPLESDIR%%/startup.wav
+%%EXAMPLESDIR%%/xinitrc
 %%EXAMPLESDIR%%/install.sh
 @dirrmtry %%EXAMPLESDIR%%
