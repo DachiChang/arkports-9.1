@@ -14,7 +14,7 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Openbox configure files
 
-CONFIG_FILE=	rc.xml menu.xml autostart startup.wav xinitrc
+CONFIG_FILE=	rc.xml menu.xml autostart startup.wav xinitrc xclient-setting
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
