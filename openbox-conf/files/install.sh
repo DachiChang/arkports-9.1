@@ -34,4 +34,4 @@ install -o $USER_NAME -m 644 /usr/local/share/examples/openbox-conf/startup.wav 
 install -o $USER_NAME -m 755 /usr/local/share/examples/openbox-conf/autostart $USER_HOME/$CONFIG_PATH
 install -o $USER_NAME -m 644 /usr/local/share/examples/openbox-conf/xinitrc $USER_HOME/.xinitrc
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg
-update_config_file $USER_HOME/.config/xorg/xclient-setting /usr/local/share/examples/openbox-conf/xclient-setting 'openbox-conf'
+update_config_file $USER_HOME/.config/xorg/xclient-setting /usr/local/share/examples/openbox-conf/locale_setting 'openbox-conf'
