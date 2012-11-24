@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# These things are run when an Openbox is started.
+#
+# If you want to use app-launch tools...please install ark-app-launch
+# and it will take care all you want auto running programe, and close
+# all of them when you exit openbox. or you can take care the program
+# by yourself.
+#
+# app-launch setting is in ~/.config/app-launch
+#
+
+if which app-launch > /dev/null 2>&1 ; then
+    exec app-launch
+fi
+
