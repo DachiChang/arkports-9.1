@@ -4,6 +4,6 @@
 %%EXAMPLESDIR%%/autostart
 %%EXAMPLESDIR%%/startup.wav
 %%EXAMPLESDIR%%/xinitrc
-%%EXAMPLESDIR%%/locale_setting
+%%EXAMPLESDIR%%/language-setting
 %%EXAMPLESDIR%%/install.sh
 @dirrmtry %%EXAMPLESDIR%%
