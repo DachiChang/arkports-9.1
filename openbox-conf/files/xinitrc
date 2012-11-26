@@ -12,11 +12,20 @@
 #
 
 
-# checking and loading xclient-setting
-[ -f ~/.config/xorg/xclient-setting ] && . ~/.config/xorg/xclient-setting
-# checking and loading xserver-setting
-[ -f ~/.config/xorg/xserver-setting ] && . ~/.config/xorg/xserver-setting
 # start login audio
 [ -f ~/.config/openbox/startup.wav ] && play ~/.config/openbox/startup.wav &
+# checking and loading xclient-setting
+if [ -d ~/.config/xorg/xclient.d ]; then
+    for xclient_setting in ~/.config/xorg/xclient.d/*; do
+        [ -x "$xclient_setting" ] && . "$xclient_setting"
+    done
+fi
+# checking and loading xserver-setting
+if [ -d ~/.config/xorg/xserver.d ]; then
+    for xserver_setting in ~/.config/xorg/xserver.d/*; do
+        [ -x "$xserver_setting" ] && . "$xserver_setting"
+    done
+fi
 
+# run window manager
 exec dbus-launch --close-stderr --exit-with-session openbox --startup ~/.config/openbox/autostart
