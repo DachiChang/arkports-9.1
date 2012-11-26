@@ -1,4 +1,6 @@
 @comment $FreeBSD$
+%%EXAMPLESDIR%%/input-method-setting
+%%EXAMPLESDIR%%/install.sh
 @cwd /
 %%OPT_PORT_PATH%%/options
 @dirrmtry %%OPT_PORT_PATH%%
