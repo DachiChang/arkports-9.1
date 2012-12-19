@@ -83,7 +83,7 @@
     <menu id="root-menu" label="root-menu">
         <separator label="ArkBSD Menu" />
         <menu id="preference-menu"/>
-        <menu id="application-menu" label="Application" execute="openbox-menu -s gnome-applications.menu" />
+        <menu id="application-menu" label="Application" execute="openbox-menu -s" />
         <menu id="desktop-menu"/>
         <menu id="system-menu"/>
     </menu>
