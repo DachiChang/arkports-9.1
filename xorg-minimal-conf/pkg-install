@@ -1,0 +1,42 @@
+#!/bin/sh
+
+if [ "$2" != 'DO-INSTALL' ]; then
+    exit
+fi
+
+# command
+CAT="cat"
+ECHO="echo"
+PRINTF="printf"
+MOUNT="mount -a"
+MKDIR="mkdir -p"
+
+# setting file
+MAKE_SETTING="files/make_setting"
+
+# append header and footer
+CONF_HEADER="# Begin of $1 settings"
+CONF_FOOTER="# End of $1 settings"
+
+# install command
+${ECHO} ${CONF_HEADER} >> /etc/make.conf
+# xorg building config
+case $3 in
+'old_intel')
+    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
+    ;;
+'new_intel')
+    ${ECHO} "WITH_NEW_XORG=yes" >> /etc/make.conf
+    ${ECHO} "WITH_KMS=yes" >> /etc/make.conf
+    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
+    ;;
+'nvidia')
+    ${ECHO} "WITH_NEW_XORG=yes" >> /etc/make.conf
+    ${ECHO} "WITH_XORG_NVIDIA_DRIVER=yes" >> /etc/make.conf
+    ;;
+*)
+    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
+    ;;
+esac
+${CAT} ${MAKE_SETTING} >> /etc/make.conf
+${ECHO} ${CONF_FOOTER} >> /etc/make.conf
