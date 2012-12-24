@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	openbox-menu
-PORTVERSION=	0.3.6.7
+PORTVERSION=	0.3.6.8
 CATEGORIES=	arkports
 MASTER_SITES=	http://mimarchlinux.googlecode.com/files/
 
