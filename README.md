@@ -15,6 +15,10 @@ system-config
 system-admin-tools
  |__ portmaster-conf
 
+window-base
+ |__ xorg-minimal-conf
+ |__ video-driver
+
 login-manager
  |__ slim-conf
 
