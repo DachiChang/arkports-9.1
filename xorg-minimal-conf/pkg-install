@@ -20,23 +20,45 @@ CONF_FOOTER="# End of $1 settings"
 
 # install command
 ${ECHO} ${CONF_HEADER} >> /etc/make.conf
-# xorg building config
-case $3 in
-'old_intel')
-    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
-    ;;
-'new_intel')
+xorg_drivers=""
+new_xorg_flag="on"
+kms_flag=""
+# check all need driver
+for driver in "$@"; do
+    case "$driver" in
+    "new_intel")
+        xorg_drivers="new_intel $xorg_drivers"
+        ;;
+    "old_intel")
+        xorg_drivers="old_intel $xorg_drivers"
+        ;;
+    "nvidia")
+        xorg_drivers="nvidia $xorg_drivers"
+        ;;
+    esac
+done
+#check intel driver
+for intel_driver in $xorg_drivers; do
+    case "$intel_driver" in
+    "new_intel")
+        kms_flag="on"
+        ;;
+    "old_intel")
+        new_xorg_flag="off"
+        kms_flag="off"
+        ;;
+    esac
+done
+#setting xorg video driver config
+if [ "$new_xorg_flag" == "on" ]; then
     ${ECHO} "WITH_NEW_XORG=yes" >> /etc/make.conf
+fi
+if [ "$kms_flag" == "on" ]; then
     ${ECHO} "WITH_KMS=yes" >> /etc/make.conf
-    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
-    ;;
-'nvidia')
-    ${ECHO} "WITH_NEW_XORG=yes" >> /etc/make.conf
-    ${ECHO} "WITH_XORG_NVIDIA_DRIVER=yes" >> /etc/make.conf
-    ;;
-*)
-    ${ECHO} "WITH_XORG_INTEL_DRIVER=yes" >> /etc/make.conf
-    ;;
-esac
+fi
+if [ "$xorg_drivers" != "" ]; then
+    ${ECHO} "XORG_VIDEO_DRIVER=$xorg_drivers" >> /etc/make.conf
+fi
+#setting window base config
 ${CAT} ${MAKE_SETTING} >> /etc/make.conf
 ${ECHO} ${CONF_FOOTER} >> /etc/make.conf
