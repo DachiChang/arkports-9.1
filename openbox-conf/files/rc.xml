@@ -572,6 +572,11 @@
                 <menu>root-menu</menu>
             </action>
         </keybind>
+        <keybind key="W-Delete">
+            <action name="Execute">
+                <command>xkill</command>
+            </action>
+        </keybind>
         <!-- application hotkey keyboard binding -->
         <keybind key="W-e">
             <action name="Execute">
