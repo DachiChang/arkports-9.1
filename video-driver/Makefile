@@ -17,7 +17,8 @@ COMMENT=	Video driver
 RUN_DEPENDS=	xf86-video-vesa>=0:${PORTSDIR}/x11-drivers/xf86-video-vesa
 .if defined(XORG_VIDEO_DRIVER)
 .if ${XORG_VIDEO_DRIVER:Mnvidia}
-RUN_DEPENDS+=	nvidia-driver>=0:${PORTSDIR}/x11/nvidia-driver
+RUN_DEPENDS+=	ark-nvidia-driver-conf>=0:${PORTSDIR}/arkports/nvidia-driver-conf \
+		nvidia-driver>=0:${PORTSDIR}/x11/nvidia-driver
 .endif
 .if ${XORG_VIDEO_DRIVER:Mnew_intel} || ${XORG_VIDEO_DRIVER:Mold_intel}
 RUN_DEPENDS+=	xf86-video-intel>=0:${PORTSDIR}/x11-drivers/xf86-video-intel
