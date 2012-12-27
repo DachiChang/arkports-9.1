@@ -1,0 +1,7 @@
+# Xserver Setting
+# disable xserver bell
+xset b off
+# disable xserver screen saver
+xset s off
+# enable monitor off in 30 min
+xset dpms 0 0 1800
