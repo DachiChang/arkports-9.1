@@ -13,4 +13,4 @@ XORG_CONFIG_PATH='.config/xorg/xserver.d/'
 install -d -o $USER_NAME -m 755 $USER_HOME/.config
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg/xserver.d
-install -o $USER_NAME -m 755 /usr/local/share/examples/xorg-minimal-conf/language-setting $USER_HOME/$XORG_CONFIG_PATH
+install -o $USER_NAME -m 755 /usr/local/share/examples/xorg-minimal-conf/xserver-setting $USER_HOME/$XORG_CONFIG_PATH
