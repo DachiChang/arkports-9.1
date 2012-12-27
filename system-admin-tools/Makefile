@@ -16,8 +16,7 @@ COMMENT=	System administration tool set
 
 RUN_DEPENDS=	bsdadminscripts>=0:${PORTSDIR}/sysutils/bsdadminscripts \
 		portmaster-conf>=0:${PORTSDIR}/arkports/portmaster-conf \
-		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster \
-		portdowngrade>=0:${PORTSDIR}/ports-mgmt/portdowngrade
+		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
