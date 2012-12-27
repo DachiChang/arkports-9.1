@@ -18,9 +18,9 @@ RUN_DEPENDS=	gtk-murrine-engine>=0:${PORTSDIR}/x11-themes/gtk-murrine-engine
 
 CONFLICTS=	*-faenza-[0-9]*
 
+INSTALLS_ICONS=	yes
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
-INSTALLS_ICONS=	yes
 
 do-install:
 	${MKDIR} ${EXAMPLESDIR}

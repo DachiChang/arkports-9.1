@@ -14,10 +14,11 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Optimiz system configure
 
-SKEL_FILE=	dot.cshrc dot.login_conf
-
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
+
+SKEL_FILE=	dot.cshrc dot.login_conf
+
 PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 do-install:

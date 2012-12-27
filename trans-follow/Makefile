@@ -17,11 +17,12 @@ COMMENT=	Window transparency effect follow by focus
 RUN_DEPENDS=	transset-df>=0:${PORTSDIR}/x11-wm/transset-df
 LIB_DEPENDS=	xcb-icccm:${PORTSDIR}/x11/xcb-util-wm
 
-GITHUB_USER=	DachiChang
-GITVERSION=	f05b880
+USE_GMAKE=	yes
 
 FETCH_ARGS=	-pRr
-USE_GMAKE=	yes
+
+GITHUB_USER=	DachiChang
+GITVERSION=	f05b880
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${PREFIX}/bin

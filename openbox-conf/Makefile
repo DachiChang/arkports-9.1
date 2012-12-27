@@ -14,10 +14,10 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Openbox configure files
 
-CONFIG_FILE=	rc.xml menu.xml autostart startup.wav xinitrc language-setting xdg-setting
-
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
+
+CONFIG_FILE=	rc.xml menu.xml autostart startup.wav xinitrc language-setting xdg-setting
 
 do-install:
 	${MKDIR} ${EXAMPLESDIR}

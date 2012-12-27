@@ -14,6 +14,12 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Slim configure files
 
+NO_WRKSUBDIR=	yes
+NO_BUILD=	yes
+
+THEME_FILE=	slim.theme \
+		panel.png \
+		background.jpg
 RESOLUTION=	1024x600 \
 		1024x768 \
 		1280x1024 \
@@ -28,12 +34,6 @@ RESOLUTION=	1024x600 \
 		1920x1080 \
 		1920x1200
 
-THEME_FILE=	slim.theme \
-		panel.png \
-		background.jpg
-
-NO_WRKSUBDIR=	yes
-NO_BUILD=	yes
 PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 do-install:

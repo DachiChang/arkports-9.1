@@ -16,7 +16,9 @@ COMMENT=	Nvidia driver configure files
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
+
 OPT_PORT=	nvidia-driver
+
 PLIST_SUB+=	OPT_PORT_PATH="${PORT_DBDIR}/${OPT_PORT}" \
 		PKGNAME="${PKGNAME}"
 

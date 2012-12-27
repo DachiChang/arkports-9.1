@@ -16,7 +16,6 @@ COMMENT=	X window system configure
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
-PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 OPTIONS_DEFINE=		NVIDIA INTEL
 OPTIONS_SINGLE=		INTEL
@@ -27,6 +26,8 @@ NVIDIA_DESC=		Nvidia video driver
 INTEL_DESC=		Intel video driver
 NEW_INTEL_DESC=		with KMS support
 OLD_INTEL_DESC=		not support KMS
+
+PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 .include <bsd.port.options.mk>
 
