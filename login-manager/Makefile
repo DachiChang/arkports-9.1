@@ -14,7 +14,8 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Login manager
 
-RUN_DEPENDS=	ark-slim-conf>=0:${PORTSDIR}/arkports/slim-conf \
+RUN_DEPENDS=	ark-gui-fonts>=0:${PORTSDIR}/arkports/gui-fonts \
+		ark-slim-conf>=0:${PORTSDIR}/arkports/slim-conf \
 		slim>=0:${PORTSDIR}/x11/slim
 
 NO_WRKSUBDIR=	yes
