@@ -2,23 +2,9 @@
 @unexec sed -e "/# Begin of %%PKGNAME%% settings.*/,/# End of %%PKGNAME%% settings/d" -i '' /etc/ttys
 @unexec sed -e "s/#ttyv8/ttyv8/" -i '' /etc/ttys
 etc/slim.conf
-share/slim/themes/arkbsd/resolution_background/1024x600.jpg
-share/slim/themes/arkbsd/resolution_background/1024x768.jpg
-share/slim/themes/arkbsd/resolution_background/1280x1024.jpg
-share/slim/themes/arkbsd/resolution_background/1280x800.jpg
-share/slim/themes/arkbsd/resolution_background/1280x960.jpg
-share/slim/themes/arkbsd/resolution_background/1366x768.jpg
-share/slim/themes/arkbsd/resolution_background/1400x1050.jpg
-share/slim/themes/arkbsd/resolution_background/1440x900.jpg
-share/slim/themes/arkbsd/resolution_background/1600x1200.jpg
-share/slim/themes/arkbsd/resolution_background/1600x900.jpg
-share/slim/themes/arkbsd/resolution_background/1680x1050.jpg
-share/slim/themes/arkbsd/resolution_background/1920x1080.jpg
-share/slim/themes/arkbsd/resolution_background/1920x1200.jpg
 share/slim/themes/arkbsd/slim.theme
 share/slim/themes/arkbsd/panel.png
 share/slim/themes/arkbsd/background.jpg
-@dirrmtry share/slim/themes/arkbsd/resolution_background
 @dirrmtry share/slim/themes/arkbsd
 @dirrmtry share/slim/themes
 @dirrmtry share/slim
