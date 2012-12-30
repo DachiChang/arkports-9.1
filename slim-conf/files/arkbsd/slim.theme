@@ -14,18 +14,18 @@ background_color        #000000
 
 # Input controls
 input_panel_x           50%
-input_panel_y           90%
-input_name_x            110
-input_name_y            78
-input_font          	Verdana:size=12:bold
+input_panel_y           50%
+input_name_x            200
+input_name_y            402
+input_font          	Droid Sans:size=14:bold
 input_color             #000000
 
 # Username / password request
-username_font          	Verdana:size=12:bold
+username_font          	Droid Sans:size=14:bold
 username_color        	#666666
-username_x              62
-username_y              78
-password_x              62
-password_y              78
-username_msg            User
+username_x              140
+username_y              402
+password_x              145
+password_y              402
+username_msg            Login
 password_msg            Pass
