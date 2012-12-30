@@ -54,7 +54,7 @@
         <font place="ActiveOnScreenDisplay">
             <name>sans-serif</name>
             <size>10</size>
-            <weight>normal</weight>
+            <weight>bold</weight>
             <slant>normal</slant>
         </font>
         <font place="InactiveOnScreenDisplay">
