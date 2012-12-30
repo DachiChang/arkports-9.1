@@ -25,6 +25,7 @@ PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 do-install:
 	${INSTALL_DATA} ${FILESDIR}/slim.conf ${PREFIX}/etc/
+	${MKDIR} ${PREFIX}/share/slim/themes/arkbsd/
 .for FILE in ${THEME_FILE}
 	${INSTALL_DATA} ${FILESDIR}/arkbsd/${FILE} ${PREFIX}/share/slim/themes/arkbsd/
 .endfor
