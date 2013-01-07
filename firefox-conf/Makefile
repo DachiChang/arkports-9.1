@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	firefox-conf
-PORTVERSION=	16.0.2
+PORTVERSION=	17.0
 CATEGORIES=	arkports
 MASTER_SITES=	# none
 DISTFILES=	# none
