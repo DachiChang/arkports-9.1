@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	portmaster-conf
-PORTVERSION=	3.11
+PORTVERSION=	3.14
 CATEGORIES=	arkports
 MASTER_SITES=	# none
 DISTFILES=	# none
