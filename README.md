@@ -39,7 +39,7 @@ usb-mounter
  |__ volman
 
 window-effect
- |__ trans-follow
+ |__ compton
 
 message-notify
  |__ xfce4-notifyd-conf
