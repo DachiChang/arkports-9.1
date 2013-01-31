@@ -34,6 +34,10 @@ window-panel
 webcam-driver
  |__ webcamd-conf
 
+usb-mounter
+ |__ volman-conf
+ |__ volman
+
 window-effect
  |__ trans-follow
 
