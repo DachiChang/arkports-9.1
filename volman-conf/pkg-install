@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ "$2" != 'DO-INSTALL' ]; then
+    exit
+fi
+
+# command
+CAT="cat"
+ECHO="echo"
+
+# setting file
+RC_SETTING="files/rc_setting"
+
+# append header and footer
+CONF_HEADER="# Begin of $1 settings"
+CONF_FOOTER="# End of $1 settings"
+
+# install command
+${ECHO} ${CONF_HEADER} >> /etc/rc.conf
+${CAT} ${RC_SETTING} >> /etc/rc.conf
+${ECHO} ${CONF_FOOTER} >> /etc/rc.conf
