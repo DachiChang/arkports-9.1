@@ -1,0 +1,35 @@
+--- Makefile.orig	2013-02-04 02:41:35.000000000 +0800
++++ Makefile	2013-02-04 02:42:57.000000000 +0800
+@@ -5,7 +5,7 @@
+ 
+ PREFIX ?= /usr
+ BINDIR ?= $(PREFIX)/bin
+-MANDIR ?= $(PREFIX)/share/man/man1
++MANDIR ?= $(PREFIX)/man/man1
+ 
+ PACKAGES = x11 xcomposite xfixes xdamage xrender xext xrandr
+ LIBS = -lm -lrt
+@@ -61,7 +61,7 @@
+ # endif
+ 
+ # === Version string ===
+-COMPTON_VERSION ?= git-$(shell git describe --always --dirty)-$(shell git log -1 --date=short --pretty=format:%cd)
++COMPTON_VERSION ?= e8d854b
+ CFG += -DCOMPTON_VERSION="\"$(COMPTON_VERSION)\""
+ 
+ LDFLAGS ?= -Wl,-O1 -Wl,--as-needed
+@@ -93,10 +93,10 @@
+ docs: $(MANPAGES) $(MANPAGES_HTML)
+ 
+ install: compton docs
+-	@install -Dm755 compton "$(DESTDIR)$(BINDIR)"/compton
+-	@install -Dm755 bin/compton-trans "$(DESTDIR)$(BINDIR)"/compton-trans
+-	@install -Dm644 man/compton.1 "$(DESTDIR)$(MANDIR)"/compton.1
+-	@install -Dm644 man/compton-trans.1 "$(DESTDIR)$(MANDIR)"/compton-trans.1
++	@install -m755 compton "$(DESTDIR)$(BINDIR)"/compton
++	@install -m755 bin/compton-trans "$(DESTDIR)$(BINDIR)"/compton-trans
++	@install -m644 man/compton.1 "$(DESTDIR)$(MANDIR)"/compton.1
++	@install -m644 man/compton-trans.1 "$(DESTDIR)$(MANDIR)"/compton-trans.1
+ 
+ uninstall:
+ 	@rm -f "$(DESTDIR)$(BINDIR)/compton"

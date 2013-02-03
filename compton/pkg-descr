@@ -1,0 +1,11 @@
+Compton is a compositor for X, and a fork of xcompmgr-dana.
+
+I was frustrated by the low amount of standalone lightweight compositors. 
+Compton was forked from Dana Jansens' fork of xcompmgr and refactored. 
+I fixed whatever bug I found, and added features I wanted. 
+Things seem stable, but don't quote me on it. 
+I will most likely be actively working on this until I get the features I want.
+This is also a learning experience for me. 
+That is, I'm partially doing this out of a desire to learn Xlib.
+
+WWW: https://github.com/chjj/compton
