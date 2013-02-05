@@ -1,3 +1,7 @@
 @comment $FreeBSD$
 bin/compton
 bin/compton-trans
+%%PORTDOCS%%%%DOCSDIR%%/README.md
+%%PORTDOCS%%%%DOCSDIR%%/compton.sample.conf
+%%PORTDOCS%%%%DOCSDIR%%/cdbus-driver.sh
+%%PORTDOCS%%@dirrm %%DOCSDIR%%
