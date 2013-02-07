@@ -14,8 +14,7 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Window effect
 
-RUN_DEPENDS=	xcompmgr>=0:${PORTSDIR}/x11-wm/xcompmgr \
-		ark-trans-follow>=0:${PORTSDIR}/arkports/trans-follow
+RUN_DEPENDS=	ark-compton>=0:${PORTSDIR}/arkports/compton
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
