@@ -30,6 +30,38 @@ FETCH_ARGS=	-pRr
 GITHUB_USER=	chjj
 GITVERSION=	2182505
 
+.if !defined(NOPORTDOCS)
+PORTDOCS=	README.md compton.sample.conf cdbus-driver.sh
 MAN1=		compton.1 compton-trans.1
+MAKE_ARGS+=	DOCDIR=${DOCSDIR} \
+		MANDIR=${MANPREFIX}/man/man1
+.endif
+
+OPTIONS_DEFINE=	DRM OPENGL DBUS
+OPTIONS_DEFAULT=DRM OPENGL
+
+DRM_DESC=	DRM Vsync Support
+OPENGL_DESC=	OpenGL Vsync Support
+DBUS_DESC=	D-Bus Support
+
+.include <bsd.port.options.mk>
+
+.if ${PORT_OPTIONS:MDRM}
+LIB_DEPENDS+=	drm:${PORTSDIR}/graphics/libdrm
+.else
+MAKE_ARGS+=	NO_VSYNC_DRM=yes
+.endif
+
+.if ${PORT_OPTIONS:MOPENGL}
+USE_GL=		gl
+.else
+MAKE_ARGS+=	NO_VSYNC_OPENGL=yes
+.endif
+
+.if ${PORT_OPTIONS:MDBUS}
+LIB_DEPENDS+=	dbus-1:${PORTSDIR}/devel/dbus
+.else
+MAKE_ARGS+=	NO_DBUS=yes
+.endif
 
 .include <bsd.port.mk>
