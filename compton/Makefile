@@ -14,24 +14,19 @@ DISTNAME=	${GITHUB_USER}-${PORTNAME}-${GITVERSION}
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	A compositor for X11
 
-BUILD_DEPENDS=	asciidoc:${PORTSDIR}/textproc/asciidoc
+BUILD_DEPENDS=	asciidoc:${PORTSDIR}/textproc/asciidoc \
+		${LOCALBASE}/share/xml/docbook/4.5/docbookx.dtd:${PORTSDIR}/textproc/docbook-xml-450
 LIB_DEPENDS=	config:${PORTSDIR}/devel/libconfig \
-		pcre:${PORTSDIR}/devel/pcre \
-		drm:${PORTSDIR}/graphics/libdrm \
-		dbus-1.3:${PORTSDIR}/devel/dbus
+		pcre:${PORTSDIR}/devel/pcre
 
 USE_XORG=	x11 xcomposite xfixes xdamage xrender xext xrandr
-USE_GL=		gl
 USE_GMAKE=	yes
 USE_PKGCONFIG=	yes
 
-MAKE_ARGS=	NO_VSYNC_DRM=no \
-		COMPTON_VERSION=git-${GITVERSION}-fbsd \
-		DOCDIR=${DOCSDIR} \
-		MANDIR=${MANPREFIX}/man/man1
-FETCH_ARGS=	-pRr
+MAKE_ARGS=	COMPTON_VERSION=git-${GITVERSION}-fbsd
 ALL_TARGET=	compton
 
+FETCH_ARGS=	-pRr
 GITHUB_USER=	chjj
 GITVERSION=	2182505
 
