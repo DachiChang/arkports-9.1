@@ -32,6 +32,7 @@ XTerm*VT100.translations: #override \
     Ctrl <Key>=: larger-vt-font() \n\
     Ctrl <Key>-: smaller-vt-font()
 XTerm*utf8Title: true
+XTerm*termName: xterm-256color
 XTerm*multiClickTime: 500
 XTerm*faceName: Droid Sans Mono
 XTerm*faceNameDoublesize: Droid Sans Fallback

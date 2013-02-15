@@ -41,6 +41,6 @@ bindkey -k up history-search-backward  # PageUp
 bindkey -k down history-search-forward # PageDown
 
 # xterm title setting
-if ( $TERM == 'xterm' ) then
+if ( $TERM =~ 'xterm*' ) then
     alias precmd 'echo -n "]0;Terminal - $cwd"'
 endif
