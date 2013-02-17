@@ -10,6 +10,7 @@ ECHO="echo"
 
 # setting file
 RC_SETTING="files/rc_setting"
+VOLMAN_CONF_SETTING="files/volman_setting"
 
 # append header and footer
 CONF_HEADER="# Begin of $1 settings"
@@ -19,3 +20,7 @@ CONF_FOOTER="# End of $1 settings"
 ${ECHO} ${CONF_HEADER} >> /etc/rc.conf
 ${CAT} ${RC_SETTING} >> /etc/rc.conf
 ${ECHO} ${CONF_FOOTER} >> /etc/rc.conf
+
+${ECHO} ${CONF_HEADER} >> ${PKG_PREFIX}/etc/volman.conf
+${CAT} ${PORTMASTER_CONF_SETTING} >> ${PKG_PREFIX}/etc/volman.conf
+${ECHO} ${CONF_FOOTER} >> ${PKG_PREFIX}/etc/volman.conf
