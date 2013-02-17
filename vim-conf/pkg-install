@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ "$2" != 'DO-INSTALL' ]; then
+    exit
+fi
+
+# command
+CAT="cat"
+ECHO="echo"
+
+# setting file
+MAKE_SETTING="files/make_setting"
+
+# append header and footer
+CONF_HEADER="# Begin of $1 settings"
+CONF_FOOTER="# End of $1 settings"
+
+# install command
+${ECHO} ${CONF_HEADER} >> /etc/make.conf
+${CAT} ${MAKE_SETTING} >> /etc/make.conf
+${ECHO} ${CONF_FOOTER} >> /etc/make.conf
