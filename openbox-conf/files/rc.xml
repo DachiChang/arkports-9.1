@@ -451,7 +451,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-k">
+        <keybind key="W-Up">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -462,7 +462,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-j">
+        <keybind key="W-Down">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -473,7 +473,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-h">
+        <keybind key="W-Left">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -484,7 +484,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-l">
+        <keybind key="W-Right">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -539,25 +539,25 @@
                 <bottom>-10</bottom>
             </action>
         </keybind>
-        <keybind key="W-Up">
+        <keybind key="W-S-Up">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>-20</y>
             </action>
         </keybind>
-        <keybind key="W-Down">
+        <keybind key="W-S-Down">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>20</y>
             </action>
         </keybind>
-        <keybind key="W-Left">
+        <keybind key="W-S-Left">
             <action name="MoveRelative">
                 <x>-20</x>
                 <y>0</y>
             </action>
         </keybind>
-        <keybind key="W-Right">
+        <keybind key="W-S-Right">
             <action name="MoveRelative">
                 <x>20</x>
                 <y>0</y>
