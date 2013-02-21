@@ -3,6 +3,7 @@
 %%EXAMPLESDIR%%/menu.xml
 %%EXAMPLESDIR%%/autostart
 %%EXAMPLESDIR%%/startup.wav
+%%EXAMPLESDIR%%/keybind.help
 %%EXAMPLESDIR%%/xinitrc
 %%EXAMPLESDIR%%/language-setting
 %%EXAMPLESDIR%%/xdg-setting
