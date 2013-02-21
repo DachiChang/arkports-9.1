@@ -451,7 +451,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Up">
+        <keybind key="W-S-Up">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -462,7 +462,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Down">
+        <keybind key="W-S-Down">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -473,7 +473,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Left">
+        <keybind key="W-S-Left">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -484,7 +484,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Right">
+        <keybind key="W-S-Right">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -496,7 +496,7 @@
             </action>
         </keybind>
         <!-- client window functional keyboard binding -->
-        <keybind key="W-S-m">
+        <keybind key="W-i">
             <action name="Iconify"/>
         </keybind>
         <keybind key="W-m">
@@ -519,6 +519,10 @@
             <action name="ResizeRelative">
                 <top>5</top>
                 <bottom>5</bottom>
+            </action>
+        </keybind>
+        <keybind key="W-C-equal">
+            <action name="ResizeRelative">
                 <left>5</left>
                 <right>5</right>
             </action>
@@ -527,31 +531,35 @@
             <action name="ResizeRelative">
                 <top>-5</top>
                 <bottom>-5</bottom>
+            </action>
+        </keybind>
+        <keybind key="W-C-minus">
+            <action name="ResizeRelative">
                 <left>-5</left>
                 <right>-5</right>
             </action>
         </keybind>
-        <keybind key="W-S-Up">
+        <keybind key="W-Up">
             <action name="MoveRelative">
                 <x>0</x>
-                <y>-20</y>
+                <y>-10</y>
             </action>
         </keybind>
-        <keybind key="W-S-Down">
+        <keybind key="W-Down">
             <action name="MoveRelative">
                 <x>0</x>
-                <y>20</y>
+                <y>10</y>
             </action>
         </keybind>
-        <keybind key="W-S-Left">
+        <keybind key="W-Left">
             <action name="MoveRelative">
-                <x>-20</x>
+                <x>-10</x>
                 <y>0</y>
             </action>
         </keybind>
-        <keybind key="W-S-Right">
+        <keybind key="W-Right">
             <action name="MoveRelative">
-                <x>20</x>
+                <x>10</x>
                 <y>0</y>
             </action>
         </keybind>
