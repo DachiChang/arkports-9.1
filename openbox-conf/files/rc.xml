@@ -515,28 +515,20 @@
             <action name="ToggleDecorations"/>
         </keybind>
         <!-- client window resize and move keyboard binding -->
-        <keybind key="W-Home">
+        <keybind key="W-equal">
             <action name="ResizeRelative">
-                <left>10</left>
-                <right>10</right>
+                <top>5</top>
+                <bottom>5</bottom>
+                <left>5</left>
+                <right>5</right>
             </action>
         </keybind>
-        <keybind key="W-End">
+        <keybind key="W-minus">
             <action name="ResizeRelative">
-                <left>-10</left>
-                <right>-10</right>
-            </action>
-        </keybind>
-        <keybind key="W-Prior">
-            <action name="ResizeRelative">
-                <top>10</top>
-                <bottom>10</bottom>
-            </action>
-        </keybind>
-        <keybind key="W-Next">
-            <action name="ResizeRelative">
-                <top>-10</top>
-                <bottom>-10</bottom>
+                <top>-5</top>
+                <bottom>-5</bottom>
+                <left>-5</left>
+                <right>-5</right>
             </action>
         </keybind>
         <keybind key="W-S-Up">
