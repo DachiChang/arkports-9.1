@@ -1,0 +1,37 @@
+Desktop Keybinding
+
+    Win + p             (Previous Desktop)
+    Win + n             (Next Desktop)
+    Win + [1-8]         (Specific Desktop)
+    Win + Shift + [1-8] (Select Window to Specific Desktop)
+    Win + Shift + p     (Select Window to Previous Desktop)
+    Win + Shift + n     (Select Window to Next Desktop)
+
+Window Keybinding
+
+    Win + Tab           (Select Next Window)
+    Win + `             (Select Previous Window)
+    Win + Shift + Up    (Select Window by direction UP)
+    Win + Shift + Down  (Select Window by direction Down)
+    Win + Shift + Left  (Select Window by direction Left)
+    Win + Shift + Right (Select Window by direction Right)
+    Win + i             (Window Iconify)
+    Win + m             (Window Maximize)
+    Win + q             (Window Quit)
+    Win + s             (Window Shade)
+    Win + t             (Window on Top)
+    Win + space         (Window disable decorations)
+    Win + =             (Window vertical resize Up)
+    Win + -             (Window vertical resize Down)
+    Win + Ctrl + =      (Window horizontal resize Up)
+    Win + Ctrl + -      (Window horizontal resize Down)
+    Win + Up            (Window Up)
+    Win + Down          (Window Down)
+    Win + Left          (Window Left)
+    Win + Right         (Window Right)
+
+Monitor Keybinding
+
+    Win + Shift + ,     (Select Window to Previous Monitor)
+    Win + Shift + .     (Select Window to Next Monitor)
+
