@@ -17,8 +17,6 @@ COMMENT=	X window system configure
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
-CONFIG_FILE=	xserver-setting
-
 OPTIONS_DEFINE=		NVIDIA INTEL
 OPTIONS_SINGLE=		INTEL
 OPTIONS_SINGLE_INTEL=	NEW_INTEL OLD_INTEL
@@ -47,9 +45,9 @@ DRIVER_CONF+=	nvidia
 
 do-install:
 	${MKDIR} ${EXAMPLESDIR}
-.for FILE in ${CONFIG_FILE}
-	${INSTALL_DATA} ${FILESDIR}/${FILE} ${EXAMPLESDIR}
-.endfor
+	(cd ${FILESDIR}/config; \
+		${FIND} . -type d -exec ${MKDIR} ${EXAMPLESDIR}/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 	PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} DO-INSTALL ${DRIVER_CONF}
 
