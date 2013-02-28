@@ -26,8 +26,9 @@ do-install:
 	${MKDIR} ${PORT_DBDIR}/${OPT_PORT}
 	${INSTALL} -m 644 ${FILESDIR}/options ${PORT_DBDIR}/${OPT_PORT}
 	${MKDIR} ${EXAMPLESDIR}
-	${INSTALL_DATA} ${FILESDIR}/vimrc ${EXAMPLESDIR}
-	${CP} -pR ${FILESDIR}/vim ${EXAMPLESDIR}
+	(cd ${FILESDIR}/config; \
+		${FIND} . -type d -exec ${MKDIR} ${EXAMPLESDIR}/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 	PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} DO-INSTALL
 
