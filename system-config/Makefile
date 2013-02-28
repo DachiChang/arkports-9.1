@@ -17,8 +17,6 @@ COMMENT=	Optimiz system configure
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
-SKEL_FILE=	dot.cshrc dot.login_conf
-
 PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 do-install:
@@ -26,9 +24,9 @@ do-install:
 	${INSTALL_DATA} ${FILESDIR}/adduser.conf /etc/
 	${INSTALL_DATA} ${FILESDIR}/ppp.conf.sample /etc/ppp/
 	${MKDIR} ${PREFIX}/share/skel
-.for FILE in ${SKEL_FILE}
-	${INSTALL} -m 644 ${FILESDIR}/dotfiles/${FILE} ${PREFIX}/share/skel/
-.endfor
+	(cd ${FILESDIR}/dotfiles; \
+		${FIND} . -type d -exec ${MKDIR} ${PREFIX}/share/skel/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${PREFIX}/share/skel/\{} \;)
 	PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} DO-INSTALL
 
 .include <bsd.port.mk>
