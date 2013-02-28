@@ -17,18 +17,14 @@ COMMENT=	Slim configure files
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
-THEME_FILE=	slim.theme \
-		panel.png \
-		background.jpg
-
 PLIST_SUB+=	PKGNAME="${PKGNAME}"
 
 do-install:
 	${INSTALL_DATA} ${FILESDIR}/slim.conf ${PREFIX}/etc/
-	${MKDIR} ${PREFIX}/share/slim/themes/arkbsd/
-.for FILE in ${THEME_FILE}
-	${INSTALL_DATA} ${FILESDIR}/arkbsd/${FILE} ${PREFIX}/share/slim/themes/arkbsd/
-.endfor
+	${MKDIR} ${PREFIX}/share/slim/themes/
+	(cd ${FILESDIR}/theme; \
+		${FIND} . -type d -exec ${MKDIR} ${PREFIX}/share/slim/themes/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${PREFIX}/share/slim/themes/\{} \;)
 	PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} DO-INSTALL
 
 .include <bsd.port.mk>
