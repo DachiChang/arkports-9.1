@@ -15,7 +15,7 @@ MAINTAINER=	femc7488@gmail.com
 COMMENT=	A compositor for X11
 
 BUILD_DEPENDS=	asciidoc:${PORTSDIR}/textproc/asciidoc \
-		${LOCALBASE}/share/xml/docbook/4.5/docbookx.dtd:${PORTSDIR}/textproc/docbook-xml-450
+		docbook-xml=4.5:${PORTSDIR}/textproc/docbook-xml-450
 LIB_DEPENDS=	config:${PORTSDIR}/devel/libconfig \
 		pcre:${PORTSDIR}/devel/pcre
 
