@@ -27,7 +27,9 @@ do-install:
 	${MKDIR} ${PORTSDIR}/${PATCH_PORT}/files
 	${INSTALL} -m 644 ${FILESDIR}/xterm.xpm ${PORTSDIR}/${PATCH_PORT}/files/patch-xterm.xpm
 	${MKDIR} ${EXAMPLESDIR}
-	${INSTALL_DATA} ${FILESDIR}/Xdefaults ${EXAMPLESDIR}
+	(cd ${FILESDIR}/config; \
+		${FIND} . -type d -exec ${MKDIR} ${EXAMPLESDIR}/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 
 .include <bsd.port.mk>
