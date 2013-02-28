@@ -21,9 +21,9 @@ CONFIG_FILE=	rc.xml menu.xml autostart startup.wav xinitrc language-setting xdg-
 
 do-install:
 	${MKDIR} ${EXAMPLESDIR}
-.for FILE in ${CONFIG_FILE}
-	${INSTALL_DATA} ${FILESDIR}/${FILE} ${EXAMPLESDIR}
-.endfor
+	(cd ${FILESDIR}/config; \
+		${FIND} . -type d -exec ${MKDIR} ${EXAMPLESDIR}/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 
 .include <bsd.port.mk>
