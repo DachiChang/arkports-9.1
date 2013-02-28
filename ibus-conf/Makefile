@@ -25,7 +25,9 @@ do-install:
 	${MKDIR} ${PORT_DBDIR}/${OPT_PORT}
 	${INSTALL} -m 644 ${FILESDIR}/options ${PORT_DBDIR}/${OPT_PORT}
 	${MKDIR} ${EXAMPLESDIR}
-	${INSTALL_DATA} ${FILESDIR}/input-method-setting ${EXAMPLESDIR}
+	(cd ${FILESDIR}/config; \
+		${FIND} . -type d -exec ${MKDIR} ${EXAMPLESDIR}/\{} \; ;\
+		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 
 .include <bsd.port.mk>
