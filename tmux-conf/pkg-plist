@@ -1,0 +1,7 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/install.sh
+%%EXAMPLESDIR%%/tmux.conf
+@dirrmtry %%EXAMPLESDIR%%
+@cwd /
+%%OPT_PORT_PATH%%/options
+@dirrmtry %%OPT_PORT_PATH%%
