@@ -451,7 +451,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Up">
+        <keybind key="W-Up">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -462,7 +462,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Down">
+        <keybind key="W-Down">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -473,7 +473,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Left">
+        <keybind key="W-Left">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -484,7 +484,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Right">
+        <keybind key="W-Right">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -521,7 +521,7 @@
                 <bottom>5</bottom>
             </action>
         </keybind>
-        <keybind key="W-C-equal">
+        <keybind key="W-S-equal">
             <action name="ResizeRelative">
                 <left>5</left>
                 <right>5</right>
@@ -533,31 +533,31 @@
                 <bottom>-5</bottom>
             </action>
         </keybind>
-        <keybind key="W-C-minus">
+        <keybind key="W-S-minus">
             <action name="ResizeRelative">
                 <left>-5</left>
                 <right>-5</right>
             </action>
         </keybind>
-        <keybind key="W-Up">
+        <keybind key="W-S-Up">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>-10</y>
             </action>
         </keybind>
-        <keybind key="W-Down">
+        <keybind key="W-S-Down">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>10</y>
             </action>
         </keybind>
-        <keybind key="W-Left">
+        <keybind key="W-S-Left">
             <action name="MoveRelative">
                 <x>-10</x>
                 <y>0</y>
             </action>
         </keybind>
-        <keybind key="W-Right">
+        <keybind key="W-S-Right">
             <action name="MoveRelative">
                 <x>10</x>
                 <y>0</y>
@@ -594,23 +594,20 @@
                 </startupnotify>
             </action>
         </keybind>
+        <keybind key="W-l">
+            <action name="Execute">
+                <command>xtrlock</command>
+                <startupnotify>
+                    <enabled>false</enabled>
+                </startupnotify>
+            </action>
+        </keybind>
         <keybind key="W-Return">
             <action name="Execute">
                 <command>xterm</command>
                 <startupnotify>
                     <enabled>true</enabled>
                 </startupnotify>
-            </action>
-        </keybind>
-        <!-- tiling window keyboard binding -->
-        <keybind key="W-F1">
-            <action name="Execute">
-                <command>tiler</command>
-            </action>
-        </keybind>
-        <keybind key="W-S-Return">
-            <action name="Execute">
-                <command>tiler swap</command>
             </action>
         </keybind>
     </keyboard>
