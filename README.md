@@ -16,8 +16,10 @@ system-admin-tools
  |__ portmaster-conf
 
 window-base
+ |__ dbus-conf
  |__ xorg-minimal-conf
  |__ video-driver
+      |__ nvidia-driver-conf
 
 login-manager
  |__ slim-conf
@@ -46,6 +48,7 @@ message-notify
  |__ gui-themes
 
 input-method
+ |__ ibus-conf
  |__ ibus-table-conf
 
 file-manager
@@ -56,8 +59,17 @@ web-browser
  |__ firefox-conf
  |__ flash-plugin
 
-virtual-terminal
+terminal
  |__ xterm-conf
 
-epdfview-conf
-gpicview-conf
+console-editor
+ |__ vim-conf
+
+terminal-multiplexer
+ |__ tmux-conf
+
+image-viewer
+ |__ gpicview-conf
+
+pdf-viewer
+ |__ epdfview-conf
