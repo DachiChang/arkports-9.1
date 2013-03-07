@@ -27,4 +27,7 @@ NO_BUILD=	yes
 do-install:
 	${DO_NADA}
 
+post-install:
+	@-update-desktop-database
+
 .include <bsd.port.mk>
