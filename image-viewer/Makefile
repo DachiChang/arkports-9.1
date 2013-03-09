@@ -17,6 +17,8 @@ COMMENT=	Image viewer
 RUN_DEPENDS=	ark-gpicview-conf>=0:${PORTSDIR}/arkports/gpicview-conf \
 		gpicview>=0:${PORTSDIR}/graphics/gpicview
 
+USE_GNOME=	desktopfileutils
+
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 

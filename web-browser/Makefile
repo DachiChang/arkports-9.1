@@ -18,6 +18,8 @@ RUN_DEPENDS=	ark-firefox-conf>=0:${PORTSDIR}/arkports/firefox-conf \
 		firefox>=0:${PORTSDIR}/www/firefox \
 		ark-flash-plugin>=0:${PORTSDIR}/arkports/flash-plugin
 
+USE_GNOME=	desktopfileutils
+
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 

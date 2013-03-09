@@ -17,6 +17,8 @@ COMMENT=	Pdf viewer
 RUN_DEPENDS=	ark-epdfview-conf>=0:${PORTSDIR}/arkports/epdfview-conf \
 		epdfview>=0:${PORTSDIR}/graphics/epdfview
 
+USE_GNOME=	desktopfileutils
+
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 

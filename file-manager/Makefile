@@ -19,7 +19,7 @@ RUN_DEPENDS=	ark-libfm-conf>=0:${PORTSDIR}/arkports/libfm-conf \
 		libfm>=0:${PORTSDIR}/x11/libfm \
 		pcmanfm>=0:${PORTSDIR}/x11-fm/pcmanfm
 
-USE_GNOME=	gnomemenus
+USE_GNOME=	gnomemenus desktopfileutils
 
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
