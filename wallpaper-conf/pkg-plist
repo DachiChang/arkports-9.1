@@ -1,0 +1,4 @@
+@comment $FreeBSD$
+%%EXAMPLESDIR%%/background.jpg
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
