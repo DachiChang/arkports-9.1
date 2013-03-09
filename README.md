@@ -73,3 +73,7 @@ image-viewer
 
 pdf-viewer
  |__ epdfview-conf
+
+screen-wallpaper
+ |__ wallpaper
+ |__ wallpaper-conf
