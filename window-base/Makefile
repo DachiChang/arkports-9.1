@@ -30,6 +30,7 @@ RUN_DEPENDS=	ark-xorg-minimal-conf>=0:${PORTSDIR}/arkports/xorg-minimal-conf \
 		xbacklight>=0:${PORTSDIR}/x11/xbacklight \
 		xlsclients>=0:${PORTSDIR}/x11/xlsclients \
 		wmctrl>=0:${PORTSDIR}/x11/wmctrl \
+		xdotool>=0:${PORTSDIR}/x11/xdotool \
 		xhost>=0:${PORTSDIR}/x11/xhost \
 		xdriinfo>=0:${PORTSDIR}/x11/xdriinfo \
 		xdpyinfo>=0:${PORTSDIR}/x11/xdpyinfo \
