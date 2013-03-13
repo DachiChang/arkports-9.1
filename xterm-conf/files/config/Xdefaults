@@ -39,7 +39,7 @@ XTerm*faceNameDoublesize: Droid Sans Fallback
 XTerm*faceSize: 10
 XTerm*allowBoldFonts: false
 XTerm*title: Terminal
-XTerm*internalBorder: 10
+XTerm*internalBorder: 8
 XTerm*geometry: 80x20
 XTerm*saveLines: 1000
 XTerm*visualBell: true
