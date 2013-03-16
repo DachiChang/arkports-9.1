@@ -26,6 +26,7 @@
     SUBDIR += pdf-viewer
     SUBDIR += portmaster-conf
     SUBDIR += screen-wallpaper
+    SUBDIR += screen-lock
     SUBDIR += slim-conf
     SUBDIR += system-admin-tools
     SUBDIR += system-config
