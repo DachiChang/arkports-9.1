@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	compton
-PORTVERSION=	20130206
+PORTVERSION=	20130312
 CATEGORIES=	arkports
 MASTER_SITES=	https://github.com/${GITHUB_USER}/${PORTNAME}/tarball/${GITVERSION}/
 DISTNAME=	${GITHUB_USER}-${PORTNAME}-${GITVERSION}
@@ -28,7 +28,7 @@ ALL_TARGET=	compton
 
 FETCH_ARGS=	-pRr
 GITHUB_USER=	chjj
-GITVERSION=	2182505
+GITVERSION=	4bc3de8
 
 .if !defined(NOPORTDOCS)
 PORTDOCS=	README.md compton.sample.conf cdbus-driver.sh
