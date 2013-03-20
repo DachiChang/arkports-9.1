@@ -30,7 +30,7 @@
             </action>
         </item>
     </menu>
-    <menu id="preference-menu" label="Preference">
+    <menu id="favorite-menu" label="Favorite">
         <item label="Firefox">
             <action name="Execute">
                 <command>firefox</command>
@@ -82,9 +82,9 @@
     </menu>
     <menu id="root-menu" label="root-menu">
         <separator label="ArkBSD Menu" />
-        <menu id="preference-menu"/>
-        <menu id="application-menu" label="Application" execute="openbox-menu -s" />
-        <menu id="desktop-menu"/>
+        <menu id="favorite-menu"/>
+        <menu id="applications-menu" label="Applications" execute="openbox-menu -s gnome-applications.menu" />
+        <menu id="settings-menu" label="Settings" execute="openbox-menu -s settings.menu" />
         <menu id="system-menu"/>
     </menu>
 </openbox_menu>
