@@ -1,4 +1,5 @@
 @comment $FreeBSD$
 %%EXAMPLESDIR%%/pcmanfm.conf
+%%EXAMPLESDIR%%/menu-setting
 %%EXAMPLESDIR%%/install.sh
 @dirrmtry %%EXAMPLESDIR%%
