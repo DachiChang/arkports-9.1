@@ -6,5 +6,6 @@
 %%EXAMPLESDIR%%/keybind.help
 %%EXAMPLESDIR%%/xinitrc
 %%EXAMPLESDIR%%/language-setting
+%%EXAMPLESDIR%%/menu-setting
 %%EXAMPLESDIR%%/install.sh
 @dirrmtry %%EXAMPLESDIR%%
