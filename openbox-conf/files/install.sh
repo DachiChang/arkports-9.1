@@ -21,5 +21,4 @@ XORG_CONFIG_PATH='.config/xorg/xclient.d/'
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg/xclient.d
 install -o $USER_NAME -m 755 /usr/local/share/examples/openbox-conf/language-setting $USER_HOME/$XORG_CONFIG_PATH
-install -o $USER_NAME -m 755 /usr/local/share/examples/openbox-conf/xdg-setting $USER_HOME/$XORG_CONFIG_PATH
 install -o $USER_NAME -m 644 /usr/local/share/examples/openbox-conf/xinitrc $USER_HOME/.xinitrc
