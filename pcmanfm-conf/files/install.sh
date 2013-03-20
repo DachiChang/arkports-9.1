@@ -14,7 +14,3 @@ install -d -o $USER_NAME -m 755 $USER_HOME/.config
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/pcmanfm
 install -d -o $USER_NAME -m 755 $USER_HOME/.config/pcmanfm/default
 install -o $USER_NAME -m 644 /usr/local/share/examples/pcmanfm-conf/pcmanfm.conf $USER_HOME/$CONFIG_PATH
-XORG_CONFIG_PATH='.config/xorg/xclient.d/'
-install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg
-install -d -o $USER_NAME -m 755 $USER_HOME/.config/xorg/xclient.d
-install -o $USER_NAME -m 755 /usr/local/share/examples/pcmanfm-conf/menu-setting $USER_HOME/$XORG_CONFIG_PATH
