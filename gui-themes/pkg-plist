@@ -28912,258 +28912,86 @@ share/icons/Faenza/actions/22/redo.png
 share/icons/Faenza/actions/22/remove.png
 share/icons/Faenza/actions/22/mail_forward.png
 share/icons/Faenza/index.theme
-share/themes/BloodyNight/gtk-2.0/ListHeaders/list_header-insens.png
-share/themes/BloodyNight/gtk-2.0/ListHeaders/list_header-prelight.png
-share/themes/BloodyNight/gtk-2.0/ListHeaders/list_header-pressed.png
-share/themes/BloodyNight/gtk-2.0/ListHeaders/list_header.png
-share/themes/BloodyNight/gtk-2.0/ListHeaders/tree.png
-share/themes/BloodyNight/gtk-2.0/Buttons/button-default.png
-share/themes/BloodyNight/gtk-2.0/Buttons/button-insensitive.png
-share/themes/BloodyNight/gtk-2.0/Buttons/button-normal.png
-share/themes/BloodyNight/gtk-2.0/Buttons/button-prelight.png
-share/themes/BloodyNight/gtk-2.0/Buttons/button-pressed.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/option4.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/check2.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/check3.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/check4.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/checklight.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/highlight.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/option1.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/option2.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/option3.png
-share/themes/BloodyNight/gtk-2.0/Check-Radio/check1.png
-share/themes/BloodyNight/gtk-2.0/Combo/op.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-arrow-prelight.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-arrow.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-inactive.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-normal.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-prelight.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-pressed.png
-share/themes/BloodyNight/gtk-2.0/Combo/op-ins.png
-share/themes/BloodyNight/gtk-2.0/Combo/op-pre.png
-share/themes/BloodyNight/gtk-2.0/Combo/combo-arrow-insens.png
-share/themes/BloodyNight/gtk-2.0/Frame-Gap/frame-gap-end.png
-share/themes/BloodyNight/gtk-2.0/Frame-Gap/frame-gap-start.png
-share/themes/BloodyNight/gtk-2.0/Frame-Gap/frame1.png
-share/themes/BloodyNight/gtk-2.0/Frame-Gap/Untitled-3.png
-share/themes/BloodyNight/gtk-2.0/Toolbar/toolbar.png
-share/themes/BloodyNight/gtk-2.0/Toolbar/toolbutton-normal.png
-share/themes/BloodyNight/gtk-2.0/Toolbar/toolbutton-prelight.png
-share/themes/BloodyNight/gtk-2.0/Toolbar/toolbutton-pressed.png
-share/themes/BloodyNight/gtk-2.0/Toolbar/toolbutton-toggled.png
-share/themes/BloodyNight/gtk-2.0/Handles/handle-h.png
-share/themes/BloodyNight/gtk-2.0/Handles/handle-v.png
-share/themes/BloodyNight/gtk-2.0/Handles/resize-grip.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_zoom_out.png
-share/themes/BloodyNight/gtk-2.0/Icons/gtk-close.png
-share/themes/BloodyNight/gtk-2.0/Icons/iconrc
-share/themes/BloodyNight/gtk-2.0/Icons/panel-find.png
-share/themes/BloodyNight/gtk-2.0/Icons/panel-lockscreen.png
-share/themes/BloodyNight/gtk-2.0/Icons/panel-screenshot.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_add.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_apply.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_back.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_bold.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_bottom.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_cancel.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_cdrom.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_clear.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_color_picker.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_copy.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_cut.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_delete.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_down.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_find-and-replace.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_find.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_folder.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_forward.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_goto_first.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_goto_last.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_help.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_home.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_jump_to.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_multimedia.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_new.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_ok.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_open.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_paste.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_preferences.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_print.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_properties.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_quit.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_redo.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_refresh.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_remove.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_save.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_top.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_trash.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_undo.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_up.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_zoom_fit_width.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_zoom_in.png
-share/themes/BloodyNight/gtk-2.0/Icons/stock_zoom_one_to_one.png
-share/themes/BloodyNight/gtk-2.0/Icons/gnome-logo.png
-share/themes/BloodyNight/gtk-2.0/Lines/line-h.png
-share/themes/BloodyNight/gtk-2.0/Lines/line-v.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-top.png
-share/themes/BloodyNight/gtk-2.0/Tabs/gap-left.png
-share/themes/BloodyNight/gtk-2.0/Tabs/gap-right.png
-share/themes/BloodyNight/gtk-2.0/Tabs/gap-top.png
-share/themes/BloodyNight/gtk-2.0/Tabs/notebook.png
-share/themes/BloodyNight/gtk-2.0/Tabs/null.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-bottom-active.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-bottom.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-left-active.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-left.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-right-active.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-right.png
-share/themes/BloodyNight/gtk-2.0/Tabs/tab-top-active.png
-share/themes/BloodyNight/gtk-2.0/Tabs/gap-bottom.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-up.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-down-prelight.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-down-pressed.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-down.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-left-active.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-left-insensitive.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-left-prelight.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-left.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-right-active.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-right-insensitive.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-right-prelight.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-right.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-up-active.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-up-insensitive.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-up-prelight.png
-share/themes/BloodyNight/gtk-2.0/Arrows/arrow-down-insens.png
-share/themes/BloodyNight/gtk-2.0/Others/bg.png
-share/themes/BloodyNight/gtk-2.0/Others/focus.png
-share/themes/BloodyNight/gtk-2.0/Others/null.png
-share/themes/BloodyNight/gtk-2.0/Others/ruler.png
-share/themes/BloodyNight/gtk-2.0/Others/tooltip.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-menubar.png
-share/themes/BloodyNight/gtk-2.0/Panel/handle-v.png
-share/themes/BloodyNight/gtk-2.0/Panel/menubar-item.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-bg.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-button-active-prelight.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-button-active.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-button-inactive.png
-share/themes/BloodyNight/gtk-2.0/Panel/panel-button-prelight.png
-share/themes/BloodyNight/gtk-2.0/Panel/handle-h.png
-share/themes/BloodyNight/gtk-2.0/ProgressBar/progressbar-horiz.png
-share/themes/BloodyNight/gtk-2.0/ProgressBar/progressbar-vert.png
-share/themes/BloodyNight/gtk-2.0/ProgressBar/trough-progressbar-horiz.png
-share/themes/BloodyNight/gtk-2.0/ProgressBar/trough-progressbar.png
-share/themes/BloodyNight/gtk-2.0/Range/slider-vert-prelight.png
-share/themes/BloodyNight/gtk-2.0/Range/slider-horiz-prelight.png
-share/themes/BloodyNight/gtk-2.0/Range/slider-horiz.png
-share/themes/BloodyNight/gtk-2.0/Range/null.png
-share/themes/BloodyNight/gtk-2.0/Range/slider-vert.png
-share/themes/BloodyNight/gtk-2.0/Range/trough-horizontal.png
-share/themes/BloodyNight/gtk-2.0/Range/trough-vertical.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/trough-scrollbar-vert.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/scroll-thumb-vert.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-horiz-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-horiz-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-horiz.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-vert-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-vert-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/slider-vert.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-down-active.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-down-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-down-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-down.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-left-active.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-left-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-left-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-left.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-right-active.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-right-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-right-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-right.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-up-active.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-up-insens.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-up-prelight.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/stepper-up.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/trough-scrollbar-horiz.png
-share/themes/BloodyNight/gtk-2.0/Scrollbars/scroll-thumb-horiz.png
-share/themes/BloodyNight/gtk-2.0/Shadows/text.png
-share/themes/BloodyNight/gtk-2.0/Shadows/shadow-etched-in.png
-share/themes/BloodyNight/gtk-2.0/Shadows/shadow-etched-out.png
-share/themes/BloodyNight/gtk-2.0/Shadows/shadow-in.png
-share/themes/BloodyNight/gtk-2.0/Shadows/shadow-none.png
-share/themes/BloodyNight/gtk-2.0/Shadows/shadow-out.png
-share/themes/BloodyNight/gtk-2.0/Shadows/text-entry.png
-share/themes/BloodyNight/gtk-2.0/Shadows/entry-shadow-in.png
-share/themes/BloodyNight/gtk-2.0/Spin/text-entry.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-down-disable.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-down-prelight.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-down.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-up-active.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-up-disable.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-up-prelight.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-up.png
-share/themes/BloodyNight/gtk-2.0/Spin/spin-down-bg.png
-share/themes/BloodyNight/gtk-2.0/Spin/spin-up-bg.png
-share/themes/BloodyNight/gtk-2.0/Spin/text-entry-focus.png
-share/themes/BloodyNight/gtk-2.0/Spin/arrow-down-active.png
-share/themes/BloodyNight/gtk-2.0/styles/windowbg
-share/themes/BloodyNight/gtk-2.0/styles/checkbutton
-share/themes/BloodyNight/gtk-2.0/styles/combo
-share/themes/BloodyNight/gtk-2.0/styles/entry
-share/themes/BloodyNight/gtk-2.0/styles/handlebox
-share/themes/BloodyNight/gtk-2.0/styles/inactivetext
-share/themes/BloodyNight/gtk-2.0/styles/listheader
-share/themes/BloodyNight/gtk-2.0/styles/menu-menubar
-share/themes/BloodyNight/gtk-2.0/styles/murrine-style-images-and-labels
-share/themes/BloodyNight/gtk-2.0/styles/notebook
-share/themes/BloodyNight/gtk-2.0/styles/optionmenu
-share/themes/BloodyNight/gtk-2.0/styles/panel
-share/themes/BloodyNight/gtk-2.0/styles/progressbar
-share/themes/BloodyNight/gtk-2.0/styles/radiobutton
-share/themes/BloodyNight/gtk-2.0/styles/range
-share/themes/BloodyNight/gtk-2.0/styles/scrollbar
-share/themes/BloodyNight/gtk-2.0/styles/spin
-share/themes/BloodyNight/gtk-2.0/styles/statusbar
-share/themes/BloodyNight/gtk-2.0/styles/toolbar
-share/themes/BloodyNight/gtk-2.0/styles/tooltips
-share/themes/BloodyNight/gtk-2.0/styles/button
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/menubar-item.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/arrow-right.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/menu.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/arrow-right-prelight.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/menubar.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/menuitem.png
-share/themes/BloodyNight/gtk-2.0/Menu-Menubar/menuline.png
-share/themes/BloodyNight/gtk-2.0/gtkrc
-share/themes/BloodyNight/xfce-notify-4.0/gtkrc
-share/themes/BloodyNight/openbox-3/themerc
-%%EXAMPLESDIR%%/gtkrc
-%%EXAMPLESDIR%%/install.sh
-@dirrmtry %%EXAMPLESDIR%%
-@dirrmtry share/themes/BloodyNight/xfce-notify-4.0
-@dirrmtry share/themes/BloodyNight/openbox-3
-@dirrmtry share/themes/BloodyNight/gtk-2.0/styles
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Toolbar
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Tabs
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Spin
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Shadows
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Scrollbars
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Range
-@dirrmtry share/themes/BloodyNight/gtk-2.0/ProgressBar
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Panel
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Others
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Menu-Menubar
-@dirrmtry share/themes/BloodyNight/gtk-2.0/ListHeaders
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Lines
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Icons
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Handles
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Frame-Gap
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Combo
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Check-Radio
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Buttons
-@dirrmtry share/themes/BloodyNight/gtk-2.0/Arrows
-@dirrmtry share/themes/BloodyNight/gtk-2.0
-@dirrmtry share/themes/BloodyNight
+share/themes/Pure/gtk-2.0/apps/Handles/handle-nautilus.png
+share/themes/Pure/gtk-2.0/apps/Handles/resize_grip.png
+share/themes/Pure/gtk-2.0/apps/pcmanfm.rc
+share/themes/Pure/gtk-2.0/apps/nautilus.rc
+share/themes/Pure/gtk-2.0/apps/gedit.rc
+share/themes/Pure/gtk-2.0/apps/firefox.rc
+share/themes/Pure/gtk-2.0/widgets/Range/slider-horiz.png
+share/themes/Pure/gtk-2.0/widgets/Range/slider-horiz-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Range/trough-horizontal.png
+share/themes/Pure/gtk-2.0/widgets/Range/trough-vertical.png
+share/themes/Pure/gtk-2.0/widgets/Null/null.png
+share/themes/Pure/gtk-2.0/widgets/Others/close.png
+share/themes/Pure/gtk-2.0/widgets/Others/handle.png
+share/themes/Pure/gtk-2.0/widgets/Others/null.png
+share/themes/Pure/gtk-2.0/widgets/Combo/combo-normal.png
+share/themes/Pure/gtk-2.0/widgets/Combo/combo-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Combo/combo-pressed.png
+share/themes/Pure/gtk-2.0/widgets/Panel/arrow-blank.png
+share/themes/Pure/gtk-2.0/widgets/Panel/handle-h.png
+share/themes/Pure/gtk-2.0/widgets/Panel/handle-v.png
+share/themes/Pure/gtk-2.0/widgets/Panel/panel-bg.png
+share/themes/Pure/gtk-2.0/widgets/Panel/panel-button-active.png
+share/themes/Pure/gtk-2.0/widgets/Panel/panel-button-hover.png
+share/themes/Pure/gtk-2.0/widgets/Panel/panel-button-inactive.png
+share/themes/Pure/gtk-2.0/widgets/Panel/arrow-down.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-a-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/checkbg.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-i-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-i-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-p-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-p-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-s-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/check-s-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-i-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-p-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-p-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-s-shadow-in.png
+share/themes/Pure/gtk-2.0/widgets/Radiocheck/radio-s-shadow-out.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/slider-horiz.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/slider-horiz-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/slider-vert.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/slider-vert-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-down.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-down-insens.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-down-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-left.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-left-insens.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-left-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-right.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-right-insens.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-right-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-up.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-up-insens.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/stepper-up-prelight.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/trough-scrollbar-horiz.png
+share/themes/Pure/gtk-2.0/widgets/Scrollbars/trough-scrollbar-vert.png
+share/themes/Pure/gtk-2.0/widgets/range.rc
+share/themes/Pure/gtk-2.0/widgets/radiocheck.rc
+share/themes/Pure/gtk-2.0/widgets/scrollbar.rc
+share/themes/Pure/gtk-2.0/widgets/panel.rc
+share/themes/Pure/gtk-2.0/gtkrc
+share/themes/Pure/xfce-notify-4.0/gtkrc
+share/themes/Pure/openbox-3/themerc
+@dirrmtry share/themes/Pure/gtk-2.0/apps/Handles
+@dirrmtry share/themes/Pure/gtk-2.0/apps
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Range
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Null
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Others
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Combo
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Panel
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Radiocheck
+@dirrmtry share/themes/Pure/gtk-2.0/widgets/Scrollbars
+@dirrmtry share/themes/Pure/gtk-2.0/widgets
+@dirrmtry share/themes/Pure/gtk-2.0
+@dirrmtry share/themes/Pure/xfce-notify-4.0
+@dirrmtry share/themes/Pure/openbox-3
 @dirrmtry share/themes
 @dirrmtry share/icons/default/cursors
 @dirrmtry share/icons/default
@@ -29409,3 +29237,6 @@ share/themes/BloodyNight/openbox-3/themerc
 @dirrmtry share/icons/Faenza-Ambiance
 @dirrmtry share/icons/Faenza
 @dirrmtry share/icons
+%%EXAMPLESDIR%%/gtkrc
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
