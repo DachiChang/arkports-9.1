@@ -81,7 +81,6 @@
         </item>
     </menu>
     <menu id="root-menu" label="root-menu">
-        <separator label="ArkBSD Menu" />
         <menu id="favorite-menu"/>
         <menu id="applications-menu" label="Applications" execute="openbox-menu -s" />
         <menu id="settings-menu" label="Settings" execute="openbox-menu -s settings.menu" />
