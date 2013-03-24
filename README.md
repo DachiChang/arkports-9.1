@@ -56,7 +56,7 @@ file-manager
  |__ pcmanfm-conf
 
 web-browser
- |__ firefox-conf
+ |__ chromium-conf
  |__ flash-plugin
 
 terminal
