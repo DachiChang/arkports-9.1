@@ -36,7 +36,7 @@ XTerm*termName: xterm-256color
 XTerm*multiClickTime: 500
 XTerm*faceName: Droid Sans Mono
 XTerm*faceNameDoublesize: Droid Sans Fallback
-XTerm*faceSize: 10
+XTerm*faceSize: 8
 XTerm*allowBoldFonts: false
 XTerm*title: Terminal
 XTerm*internalBorder: 8

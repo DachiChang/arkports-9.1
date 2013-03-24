@@ -58,7 +58,7 @@ task_iconified_background_id = 3
 task_icon_asb = 100 0 0
 task_active_icon_asb = 100 0 0
 task_urgent_icon_asb = 100 0 0
-task_iconified_icon_asb = 100 0 0
+task_iconified_icon_asb = 50 0 0
 
 # Task Text Fonts
 task_font_color = #000000 0
@@ -76,7 +76,7 @@ systray_icon_asb = 100 0 0
 
 # Clock
 time1_format = %H:%M
-time1_font = sans bold 10
+time1_font = sans bold 8
 time2_format = %h.%e
 time2_font = sans 7
 clock_font_color = #EEEEEE 100
@@ -86,11 +86,11 @@ clock_background_id = 0
 
 # Tooltips
 tooltip = 1
-tooltip_padding = 10 5
+tooltip_padding = 5 5
 tooltip_show_timeout = 0.0
 tooltip_hide_timeout = 0.0
 tooltip_background_id = 1
-tooltip_font = sans bold 10
+tooltip_font = sans bold 8
 tooltip_font_color = #EEEEEE 100
 
 # Mouse
