@@ -23,7 +23,7 @@
     </placement>
     <!-- openbox theme setting -->
     <theme>
-        <name>BloodyNight</name>
+        <name>Pure</name>
         <titleLayout>LIMC</titleLayout>
         <keepBorder>yes</keepBorder>
         <animateIconify>yes</animateIconify>
