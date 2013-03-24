@@ -14,8 +14,8 @@ DISTFILES=	# none
 MAINTAINER=	femc7488@gmail.com
 COMMENT=	Web browser
 
-RUN_DEPENDS=	ark-firefox-conf>=0:${PORTSDIR}/arkports/firefox-conf \
-		firefox>=0:${PORTSDIR}/www/firefox \
+RUN_DEPENDS=	ark-firefox-conf>=0:${PORTSDIR}/arkports/chromium-conf \
+		chromium>=0:${PORTSDIR}/www/chromium \
 		ark-flash-plugin>=0:${PORTSDIR}/arkports/flash-plugin
 
 USE_GNOME=	desktopfileutils
