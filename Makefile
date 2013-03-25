@@ -7,7 +7,7 @@
     SUBDIR += dbus-conf
     SUBDIR += epdfview-conf
     SUBDIR += file-manager
-    SUBDIR += firefox-conf
+    SUBDIR += chromium-conf
     SUBDIR += flash-plugin
     SUBDIR += gpicview-conf
     SUBDIR += gui-fonts
