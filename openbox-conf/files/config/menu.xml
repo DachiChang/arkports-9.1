@@ -31,9 +31,9 @@
         </item>
     </menu>
     <menu id="favorite-menu" label="Favorite">
-        <item label="Firefox">
+        <item label="Chrome">
             <action name="Execute">
-                <command>firefox</command>
+                <command>chrome</command>
                 <startupnotify>
                     <enabled>true</enabled>
                 </startupnotify>
