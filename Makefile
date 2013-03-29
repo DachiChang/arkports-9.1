@@ -19,6 +19,7 @@
     SUBDIR += libfm-conf
     SUBDIR += login-manager
     SUBDIR += message-notify
+    SUBDIR += mplayer2-conf
     SUBDIR += nvidia-driver-conf
     SUBDIR += openbox-conf
     SUBDIR += openbox-menu
@@ -36,6 +37,7 @@
     SUBDIR += tmux-conf
     SUBDIR += usb-mounter
     SUBDIR += video-driver
+    SUBDIR += video-player
     SUBDIR += vim-conf
     SUBDIR += volman
     SUBDIR += volman-conf
