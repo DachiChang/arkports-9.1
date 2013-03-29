@@ -1,0 +1,10 @@
+@comment $FreeBSD$
+share/applications/video-player.desktop
+@exec %%LOCALBASE%%/bin/update-desktop-database > /dev/null || /usr/bin/true
+@unexec %%LOCALBASE%%/bin/update-desktop-database > /dev/null || /usr/bin/true
+%%EXAMPLESDIR%%/config
+%%EXAMPLESDIR%%/install.sh
+@dirrmtry %%EXAMPLESDIR%%
+@cwd /
+%%OPT_PORT_PATH%%/options
+@dirrmtry %%OPT_PORT_PATH%%
