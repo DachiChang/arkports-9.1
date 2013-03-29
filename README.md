@@ -74,6 +74,9 @@ image-viewer
 pdf-viewer
  |__ epdfview-conf
 
+video-player
+ |__ mplayer2-conf
+
 screen-wallpaper
  |__ wallpaper
  |__ wallpaper-conf
