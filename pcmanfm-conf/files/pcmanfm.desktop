@@ -1,0 +1,8 @@
+--- data/pcmanfm.desktop.orig	2013-03-29 17:51:25.000000000 +0800
++++ data/pcmanfm.desktop	2013-03-29 17:51:40.000000000 +0800
+@@ -130,4 +130,4 @@
+ Exec=pcmanfm %U
+ StartupNotify=true
+ Terminal=false
+-MimeType=x-directory/normal;inode/directory;
++MimeType=inode/directory;
