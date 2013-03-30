@@ -1,7 +1,6 @@
 [Desktop Entry]
 Name=MPlayer
 Icon=mplayer
-Encoding=UTF-8
 Type=Application
 Categories=AudioVideo
 Exec=mplayer -really-quiet %F
