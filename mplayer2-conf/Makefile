@@ -30,7 +30,7 @@ do-install:
 		${FIND} . -type f -exec ${INSTALL_DATA} \{} ${EXAMPLESDIR}/\{} \;)
 	${INSTALL_SCRIPT} ${FILESDIR}/install.sh ${EXAMPLESDIR}
 	${MKDIR} ${PREFIX}/share/applications
-	${INSTALL_DATA} ${FILESDIR}/video-player.desktop ${PREFIX}/share/applications/
+	${INSTALL_DATA} ${FILESDIR}/mplayer.desktop ${PREFIX}/share/applications/
 	${MKDIR} ${PORT_DBDIR}/${OPT_PORT}
 	${INSTALL} -m 644 ${FILESDIR}/options ${PORT_DBDIR}/${OPT_PORT}
 

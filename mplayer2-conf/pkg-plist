@@ -1,5 +1,5 @@
 @comment $FreeBSD$
-share/applications/video-player.desktop
+share/applications/mplayer.desktop
 @exec %%LOCALBASE%%/bin/update-desktop-database > /dev/null || /usr/bin/true
 @unexec %%LOCALBASE%%/bin/update-desktop-database > /dev/null || /usr/bin/true
 %%EXAMPLESDIR%%/config
