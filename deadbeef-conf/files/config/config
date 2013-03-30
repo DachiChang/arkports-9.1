@@ -1,0 +1,47 @@
+cli_add_playlist_name Default
+cli_add_to_specific_playlist 1
+deadbeef_version 0.5.5
+gtkui.action_separators 0
+gtkui.autoresize_columns 1
+gtkui.custom_tray_icon deadbeef-tray-icon
+gtkui.delete_files_ask 1
+gtkui.headers.visible 1
+gtkui.mmb_delete_playlist 1
+gtkui.statusbar.visible 0
+gtkui.sync 0
+gtkui.tabs.visible 0
+gtkui.tabscroll 0
+gtkui.titlebar_playing DeaDBeeF - %a - %t
+gtkui.titlebar_stopped DeaDBeeF
+gtkui.tray_volume_sensitivity 1
+gui_plugin GTK2
+ignore_archives 1
+mainwin.geometry.h 300
+mainwin.geometry.w 500
+mainwin.geometry.x 50
+mainwin.geometry.y 40
+network.proxy.port 8080
+network.proxy.type HTTP
+notify.albumart 1
+notify.albumart_size 64
+notify.enable 1
+notify.format %t
+notify.format_content %a - %b
+output_plugin OSS output plugin
+playback.loop 0
+playback.order 0
+playback.volume 0.0000000
+playlist.current 0
+playlist.scroll.followplayback 0
+playlist.tab.00 Default
+prefwin.geometry.h 412
+prefwin.geometry.w 576
+prefwin.geometry.x 672
+prefwin.geometry.y 334
+replaygain_mode 0
+replaygain_scale 1
+streamer.8_to_16 1
+playlist.column.00 "Playing" "" 1 47 0
+playlist.column.01 "Artist / Album" "%a - %b" -1 162 0
+playlist.column.02 "Title" "%t" -1 216 0
+playlist.column.03 "Track No" "%n" -1 57 1

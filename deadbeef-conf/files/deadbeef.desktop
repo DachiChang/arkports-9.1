@@ -1,0 +1,18 @@
+--- deadbeef.desktop.in.orig	2013-03-30 16:38:30.000000000 +0800
++++ deadbeef.desktop.in	2013-03-30 16:39:11.000000000 +0800
+@@ -6,12 +6,13 @@
+ Comment=Listen to music
+ Comment[pt_BR]=Escute músicas
+ Comment[ru]=Слушай музыку
+-Exec=deadbeef %F
+-MimeType=application/ogg;audio/x-vorbis+ogg;application/x-ogg;audio/mp3;audio/prs.sid;audio/x-flac;audio/mpeg;audio/x-mpeg;audio/x-mod;audio/x-it;audio/x-s3m;audio/x-xm;audio/x-mpegurl;audio/x-scpls;
+ Categories=AudioVideo;Player;GTK;
+ Terminal=false
+ Type=Application
+ Icon=deadbeef
++Exec=deadbeef --queue %F
++StartupNotify=false
++MimeType=audio/wav;audio/x-ms-wma;audio/mp2;audio/mp4;application/ogg;audio/x-vorbis+ogg;application/x-ogg;audio/mp3;audio/prs.sid;audio/x-flac;audio/mpeg;audio/x-mpeg;audio/x-mod;audio/x-it;audio/x-s3m;audio/x-xm;
+ 
+ X-Ayatana-Desktop-Shortcuts=Play;Pause;Stop;Next;Prev
+ [Play Shortcut Group]
