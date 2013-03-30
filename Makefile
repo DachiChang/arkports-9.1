@@ -2,9 +2,11 @@
 #
     COMMENT = Custom Ports of Awesome Rapid Kit
 
+    SUBDIR += audio-player
     SUBDIR += compton
     SUBDIR += console-editor
     SUBDIR += dbus-conf
+    SUBDIR += deadbeef-conf
     SUBDIR += epdfview-conf
     SUBDIR += file-manager
     SUBDIR += chromium-conf
