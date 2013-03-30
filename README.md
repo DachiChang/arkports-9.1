@@ -77,6 +77,9 @@ pdf-viewer
 video-player
  |__ mplayer2-conf
 
+audio-player
+ |__ deadbeef-conf
+
 screen-wallpaper
  |__ wallpaper
  |__ wallpaper-conf
