@@ -41,7 +41,7 @@ prefwin.geometry.y 334
 replaygain_mode 0
 replaygain_scale 1
 streamer.8_to_16 1
-playlist.column.00 "Playing" "" 1 47 0
-playlist.column.01 "Artist / Album" "%a - %b" -1 162 0
-playlist.column.02 "Title" "%t" -1 216 0
-playlist.column.03 "Track No" "%n" -1 57 1
+playlist.column.00 "Playing" "" 1 48 0
+playlist.column.01 "Artist / Album" "%a - %b" -1 167 0
+playlist.column.02 "Title" "%t" -1 200 0
+playlist.column.03 "Track No" "%n" -1 58 1
