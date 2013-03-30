@@ -11,10 +11,10 @@ Window Keybinding
 
     Win + Tab           (select next window)
     Win + `             (select previous window)
-    Win + Up            (select window by direction up)
-    Win + Down          (select window by direction down)
-    Win + Left          (select window by direction left)
-    Win + Right         (select window by direction right)
+    Win + Shift + Up    (select window by direction up)
+    Win + Shift + Down  (select window by direction down)
+    Win + Shift + Left  (select window by direction left)
+    Win + Shift + Right (select window by direction right)
     Win + i             (window iconify)
     Win + m             (window maximize)
     Win + q             (window quit)
@@ -23,17 +23,17 @@ Window Keybinding
     Win + space         (window disable decorations)
     Win + =             (window vertical resize up)
     Win + -             (window vertical resize down)
-    Win + Shift + =     (window horizontal resize up)
-    Win + Shift + -     (window horizontal resize down)
-    Win + Shift + Up    (window up)
-    Win + Shift + Down  (window down)
-    Win + Shift + Left  (window left)
-    Win + Shift + Right (window right)
+    Win + ,             (window horizontal resize up)
+    Win + .             (window horizontal resize down)
+    Win + Up            (window up)
+    Win + Down          (window down)
+    Win + Left          (window left)
+    Win + Right         (window right)
 
 Monitor Keybinding
 
-    Win + Shift + ,     (select window to previous monitor)
-    Win + Shift + .     (select window to next monitor)
+    Win + [             (select window to previous monitor)
+    Win + ]             (select window to next monitor)
 
 Hotkey Keybinding
 

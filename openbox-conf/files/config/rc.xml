@@ -372,12 +372,12 @@
             </action>
         </keybind>
         <!-- client monitor switch keyboard binding -->
-        <keybind key="W-S-period">
+        <keybind key="W-bracketright">
             <action name="MoveResizeTo">
                 <monitor>next</monitor>
             </action>
         </keybind>
-        <keybind key="W-S-comma">
+        <keybind key="W-bracketleft">
             <action name="MoveResizeTo">
                 <monitor>prev</monitor>
             </action>
@@ -451,7 +451,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Up">
+        <keybind key="W-S-Up">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -462,7 +462,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Down">
+        <keybind key="W-S-Down">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -473,7 +473,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Left">
+        <keybind key="W-S-Left">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -484,7 +484,7 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-Right">
+        <keybind key="W-S-Right">
             <action name="DirectionalCycleWindows">
                 <raise>yes</raise>
                 <dialog>no</dialog>
@@ -521,43 +521,43 @@
                 <bottom>5</bottom>
             </action>
         </keybind>
-        <keybind key="W-S-equal">
-            <action name="ResizeRelative">
-                <left>5</left>
-                <right>5</right>
-            </action>
-        </keybind>
         <keybind key="W-minus">
             <action name="ResizeRelative">
                 <top>-5</top>
                 <bottom>-5</bottom>
             </action>
         </keybind>
-        <keybind key="W-S-minus">
+        <keybind key="W-period">
+            <action name="ResizeRelative">
+                <left>5</left>
+                <right>5</right>
+            </action>
+        </keybind>
+        <keybind key="W-comma">
             <action name="ResizeRelative">
                 <left>-5</left>
                 <right>-5</right>
             </action>
         </keybind>
-        <keybind key="W-S-Up">
+        <keybind key="W-Up">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>-10</y>
             </action>
         </keybind>
-        <keybind key="W-S-Down">
+        <keybind key="W-Down">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>10</y>
             </action>
         </keybind>
-        <keybind key="W-S-Left">
+        <keybind key="W-Left">
             <action name="MoveRelative">
                 <x>-10</x>
                 <y>0</y>
             </action>
         </keybind>
-        <keybind key="W-S-Right">
+        <keybind key="W-Right">
             <action name="MoveRelative">
                 <x>10</x>
                 <y>0</y>
