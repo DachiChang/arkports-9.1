@@ -11,12 +11,12 @@
         <followMouse>yes</followMouse>
         <focusLast>yes</focusLast>
         <underMouse>no</underMouse>
-        <focusDelay>0</focusDelay>
+        <focusDelay>200</focusDelay>
         <raiseOnFocus>no</raiseOnFocus>
     </focus>
     <!-- openbox window placement policy -->
     <placement>
-        <policy>Smart</policy>
+        <policy>UnderMouse</policy>
         <center>yes</center>
         <monitor>Active</monitor>
         <primaryMonitor>Active</primaryMonitor>
