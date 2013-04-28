@@ -321,12 +321,12 @@
     <!-- openbox keyboard binding -->
     <keyboard>
         <!-- desktop switch keyboard binding -->
-        <keybind key="W-p">
+        <keybind key="W-Left">
             <action name="GoToDesktop">
                 <to>left</to>
             </action>
         </keybind>
-        <keybind key="W-n">
+        <keybind key="W-Right">
             <action name="GoToDesktop">
                 <to>right</to>
             </action>
@@ -423,12 +423,12 @@
                 <to>8</to>
             </action>
         </keybind>
-        <keybind key="W-S-p">
+        <keybind key="W-S-Left">
             <action name="SendToDesktop">
                 <to>left</to>
             </action>
         </keybind>
-        <keybind key="W-S-n">
+        <keybind key="W-S-Right">
             <action name="SendToDesktop">
                 <to>right</to>
             </action>
@@ -451,48 +451,14 @@
                 </finalactions>
             </action>
         </keybind>
-        <keybind key="W-S-Up">
-            <action name="DirectionalCycleWindows">
-                <raise>yes</raise>
-                <dialog>no</dialog>
-                <direction>up</direction>
-                <finalactions>
-                    <action name="Focus"/>
-                    <action name="Raise"/>
-                </finalactions>
+        <keybind key="W-n">
+            <action name="Execute">
+                <command>apptab next</command>
             </action>
         </keybind>
-        <keybind key="W-S-Down">
-            <action name="DirectionalCycleWindows">
-                <raise>yes</raise>
-                <dialog>no</dialog>
-                <direction>down</direction>
-                <finalactions>
-                    <action name="Focus"/>
-                    <action name="Raise"/>
-                </finalactions>
-            </action>
-        </keybind>
-        <keybind key="W-S-Left">
-            <action name="DirectionalCycleWindows">
-                <raise>yes</raise>
-                <dialog>no</dialog>
-                <direction>left</direction>
-                <finalactions>
-                    <action name="Focus"/>
-                    <action name="Raise"/>
-                </finalactions>
-            </action>
-        </keybind>
-        <keybind key="W-S-Right">
-            <action name="DirectionalCycleWindows">
-                <raise>yes</raise>
-                <dialog>no</dialog>
-                <direction>right</direction>
-                <finalactions>
-                    <action name="Focus"/>
-                    <action name="Raise"/>
-                </finalactions>
+        <keybind key="W-p">
+            <action name="Execute">
+                <command>apptab prev</command>
             </action>
         </keybind>
         <!-- client window functional keyboard binding -->
@@ -539,25 +505,25 @@
                 <right>-5</right>
             </action>
         </keybind>
-        <keybind key="W-Up">
+        <keybind key="W-C-Up">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>-10</y>
             </action>
         </keybind>
-        <keybind key="W-Down">
+        <keybind key="W-C-Down">
             <action name="MoveRelative">
                 <x>0</x>
                 <y>10</y>
             </action>
         </keybind>
-        <keybind key="W-Left">
+        <keybind key="W-C-Left">
             <action name="MoveRelative">
                 <x>-10</x>
                 <y>0</y>
             </action>
         </keybind>
-        <keybind key="W-Right">
+        <keybind key="W-C-Right">
             <action name="MoveRelative">
                 <x>10</x>
                 <y>0</y>

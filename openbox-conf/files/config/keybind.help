@@ -1,20 +1,22 @@
 Desktop Keybinding
 
-    Win + p             (previous desktop)
-    Win + n             (next desktop)
+    Win + Left          (previous desktop)
+    Win + Right         (next desktop)
     Win + [1-8]         (specify desktop)
     Win + Shift + [1-8] (select window to specific desktop)
-    Win + Shift + p     (select window to previous desktop)
-    Win + Shift + n     (select window to next desktop)
+    Win + Shift + Left  (select window to previous desktop)
+    Win + Shift + Right (select window to next desktop)
+    Win + Ctrl + Up     (control window move up)
+    Win + Ctrl + Down   (control window move down)
+    Win + Ctrl + Left   (control window move left)
+    Win + Ctrl + Right  (control window move right)
+    Win + `             (previous window)
+    Win + Tab           (next window)
+    win + p             (previous window by application class)
+    win + n             (next window by application class)
 
 Window Keybinding
 
-    Win + Tab           (select next window)
-    Win + `             (select previous window)
-    Win + Shift + Up    (select window by direction up)
-    Win + Shift + Down  (select window by direction down)
-    Win + Shift + Left  (select window by direction left)
-    Win + Shift + Right (select window by direction right)
     Win + i             (window iconify)
     Win + m             (window maximize)
     Win + q             (window quit)
@@ -25,10 +27,6 @@ Window Keybinding
     Win + -             (window vertical resize down)
     Win + ,             (window horizontal resize up)
     Win + .             (window horizontal resize down)
-    Win + Up            (window up)
-    Win + Down          (window down)
-    Win + Left          (window left)
-    Win + Right         (window right)
 
 Monitor Keybinding
 
